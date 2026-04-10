@@ -41,4 +41,5 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add scores.json debug_espn.html
           git diff --cached --quiet || git commit -m "Update scores $(date -u '+%H:%M UTC')"
+          git pull --rebase origin main
           git push
