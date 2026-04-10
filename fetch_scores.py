@@ -47,8 +47,8 @@ SLUG_MAP = {
     'jj-spaun':           'JJ Spaun',
     'j.j.-spaun':         'JJ Spaun',
     'justin-rose':        'Justin Rose',
-    'nicolai-hjgaard':    'Nicolai Hojgaard',   # ← ESPN strips ø entirely → hjgaard
-    'nicolai-hojgaard':   'Nicolai Hojgaard',   # fallback variant
+    'nicolai-hjgaard':    'Nicolai Hojgaard',   # ESPN drops ø → hjgaard
+    'nicolai-hojgaard':   'Nicolai Hojgaard',
     'jason-day':          'Jason Day',
     'bryson-dechambeau':  'Bryson DeChambeau',
     'brooks-koepka':      'Brooks Koepka',
@@ -101,6 +101,18 @@ def extract_scores(html, idx):
     def cell(i): return atds[i] if i < len(atds) else '--'
     return cell(0), cell(3), cell(4), cell(5), cell(6)
 
+def find_slug_in_leaderboard(html, slug):
+    """
+    Find the slug ONLY inside a leaderboard player anchor, NOT inside JSON blobs.
+    ESPN embeds player data in a JSON script block early in the page — we must skip that.
+    """
+    pattern = re.compile(
+        r'leaderboardplayername[^>]*/(?:[^/"]*/)?' + re.escape(slug) + r'"',
+        re.IGNORECASE
+    )
+    m = pattern.search(html)
+    return m.start() if m else -1
+
 def detect_round(html):
     m = re.search(r'Round (\d)\s*[-–]\s*(?:Play|In Progress|Suspended|Complete|Tee)', html)
     if m:
@@ -115,7 +127,8 @@ def parse(html):
     for slug, our_name in SLUG_MAP.items():
         if our_name in scores:
             continue
-        idx = html.find(f'/{slug}')
+        # ← KEY FIX: only search within actual leaderboard <a> tags
+        idx = find_slug_in_leaderboard(html, slug)
         if idx == -1:
             continue
         tds = get_row(html, idx)
@@ -126,11 +139,11 @@ def parse(html):
             'position': pos, 'cut': cut, 'live': False,
             'toPar': to_par, 'r1': r1, 'r2': r2, 'r3': r3, 'r4': r4,
         }
-        print(f"  [slug] {our_name:<22} pos={str(pos_text):<6} toPar={to_par:<5} R1={r1} R2={r2}")
+        print(f"  [ok] {our_name:<22} pos={str(pos_text):<6} toPar={to_par:<5} R1={r1} R2={r2}")
 
     missing = [p for p in TEAM_PLAYERS if p not in scores]
     if missing:
-        print(f"  Still missing after slug pass: {missing}")
+        print(f"  Missing after parse: {missing}")
 
     return scores, detect_round(html)
 
@@ -148,8 +161,7 @@ if __name__ == '__main__':
 
         scores, rnd = parse(html)
         missing = [p for p in TEAM_PLAYERS if p not in scores]
-        print(f"  Round detected: {rnd}")
-        print(f"  Matched {len(scores)}/{len(TEAM_PLAYERS)}")
+        print(f"  Round: {rnd} | Matched {len(scores)}/{len(TEAM_PLAYERS)}")
         if missing:
             print(f"  Missing: {missing}")
 
