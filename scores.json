@@ -1,6 +1,6 @@
 {
   "currentRound": "R2",
-  "lastUpdated": "20:56 BST",
+  "lastUpdated": "20:59 BST",
   "source": "ESPN HTML",
   "players": {
     "Rory McIlroy": {
@@ -14,7 +14,7 @@
       "r4": "--"
     },
     "Tommy Fleetwood": {
-      "position": 5,
+      "position": 4,
       "cut": false,
       "live": false,
       "toPar": "-4",
@@ -44,7 +44,7 @@
       "r4": "--"
     },
     "Cameron Young": {
-      "position": 18,
+      "position": 17,
       "cut": false,
       "live": false,
       "toPar": "-1",
@@ -84,7 +84,7 @@
       "r4": "--"
     },
     "Hideki Matsuyama": {
-      "position": 18,
+      "position": 17,
       "cut": false,
       "live": false,
       "toPar": "-1",
@@ -224,10 +224,10 @@
       "r4": "--"
     },
     "Akshay Bhatia": {
-      "position": 17,
+      "position": 22,
       "cut": false,
       "live": false,
-      "toPar": "-2",
+      "toPar": "E",
       "r1": "73",
       "r2": "--",
       "r3": "--",
@@ -264,10 +264,10 @@
       "r4": "--"
     },
     "Jason Day": {
-      "position": 2,
+      "position": 4,
       "cut": false,
       "live": false,
-      "toPar": "-5",
+      "toPar": "-4",
       "r1": "69",
       "r2": "--",
       "r3": "--",
@@ -324,7 +324,7 @@
       "r4": "--"
     },
     "Min Woo Lee": {
-      "position": 84,
+      "position": 82,
       "cut": false,
       "live": false,
       "toPar": "+11",
@@ -374,7 +374,7 @@
       "r4": "--"
     },
     "Tyrrell Hatton": {
-      "position": 5,
+      "position": 4,
       "cut": false,
       "live": false,
       "toPar": "-4",
@@ -389,16 +389,6 @@
       "live": false,
       "toPar": "+1",
       "r1": "72",
-      "r2": "--",
-      "r3": "--",
-      "r4": "--"
-    },
-    "Nicolai Hojgaard": {
-      "position": null,
-      "cut": true,
-      "live": false,
-      "toPar": "--",
-      "r1": "--",
       "r2": "--",
       "r3": "--",
       "r4": "--"
