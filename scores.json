@@ -1,6 +1,6 @@
 {
   "currentRound": "R2",
-  "lastUpdated": "21:41 BST",
+  "lastUpdated": "21:42 BST",
   "source": "ESPN HTML",
   "players": {
     "Rory McIlroy": {
@@ -104,10 +104,10 @@
       "r4": "--"
     },
     "Collin Morikawa": {
-      "position": 22,
+      "position": 30,
       "cut": false,
       "live": false,
-      "toPar": "E",
+      "toPar": "+1",
       "r1": "74",
       "r2": "--",
       "r3": "--",
@@ -134,7 +134,7 @@
       "r4": "--"
     },
     "Jacob Bridgeman": {
-      "position": 31,
+      "position": 30,
       "cut": false,
       "live": false,
       "toPar": "+1",
@@ -154,7 +154,7 @@
       "r4": "--"
     },
     "Sepp Straka": {
-      "position": 31,
+      "position": 30,
       "cut": false,
       "live": false,
       "toPar": "+1",
@@ -174,7 +174,7 @@
       "r4": "--"
     },
     "Jordan Spieth": {
-      "position": 31,
+      "position": 30,
       "cut": false,
       "live": false,
       "toPar": "+1",
@@ -184,7 +184,7 @@
       "r4": "--"
     },
     "Sung-Jae Im": {
-      "position": 31,
+      "position": 30,
       "cut": false,
       "live": false,
       "toPar": "+1",
@@ -260,6 +260,16 @@
       "toPar": "-5",
       "r1": "70",
       "r2": "69",
+      "r3": "--",
+      "r4": "--"
+    },
+    "Nicolai Hojgaard": {
+      "position": 62,
+      "cut": false,
+      "live": false,
+      "toPar": "+6",
+      "r1": "76",
+      "r2": "74",
       "r3": "--",
       "r4": "--"
     },
@@ -384,7 +394,7 @@
       "r4": "--"
     },
     "Ryan Gerard": {
-      "position": 31,
+      "position": 30,
       "cut": false,
       "live": false,
       "toPar": "+1",
