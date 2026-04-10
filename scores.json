@@ -1,6 +1,6 @@
 {
   "currentRound": "R2",
-  "lastUpdated": "20:42 BST",
+  "lastUpdated": "20:45 BST",
   "source": "ESPN HTML",
   "players": {
     "Rory McIlroy": {
@@ -24,7 +24,7 @@
       "r4": "--"
     },
     "Russell Henley": {
-      "position": 23,
+      "position": 22,
       "cut": false,
       "live": false,
       "toPar": "E",
@@ -134,7 +134,7 @@
       "r4": "--"
     },
     "Jacob Bridgeman": {
-      "position": 30,
+      "position": 31,
       "cut": false,
       "live": false,
       "toPar": "+1",
@@ -144,7 +144,7 @@
       "r4": "--"
     },
     "Jake Knapp": {
-      "position": 23,
+      "position": 22,
       "cut": false,
       "live": false,
       "toPar": "E",
@@ -154,7 +154,7 @@
       "r4": "--"
     },
     "Sepp Straka": {
-      "position": 30,
+      "position": 31,
       "cut": false,
       "live": false,
       "toPar": "+1",
@@ -164,7 +164,7 @@
       "r4": "--"
     },
     "Ludvig Aberg": {
-      "position": 23,
+      "position": 22,
       "cut": false,
       "live": false,
       "toPar": "E",
@@ -174,7 +174,7 @@
       "r4": "--"
     },
     "Jordan Spieth": {
-      "position": 30,
+      "position": 31,
       "cut": false,
       "live": false,
       "toPar": "+1",
@@ -184,7 +184,7 @@
       "r4": "--"
     },
     "Sung-Jae Im": {
-      "position": 30,
+      "position": 31,
       "cut": false,
       "live": false,
       "toPar": "+1",
@@ -204,7 +204,7 @@
       "r4": "--"
     },
     "Scottie Scheffler": {
-      "position": 23,
+      "position": 22,
       "cut": false,
       "live": false,
       "toPar": "E",
@@ -224,7 +224,7 @@
       "r4": "--"
     },
     "Akshay Bhatia": {
-      "position": 16,
+      "position": 17,
       "cut": false,
       "live": false,
       "toPar": "-2",
@@ -339,17 +339,17 @@
       "live": false,
       "toPar": "+4",
       "r1": "75",
-      "r2": "--",
+      "r2": "73",
       "r3": "--",
       "r4": "--"
     },
     "Harris English": {
-      "position": 18,
+      "position": 22,
       "cut": false,
       "live": false,
-      "toPar": "-1",
+      "toPar": "E",
       "r1": "73",
-      "r2": "--",
+      "r2": "71",
       "r3": "--",
       "r4": "--"
     },
@@ -384,10 +384,10 @@
       "r4": "--"
     },
     "Ryan Gerard": {
-      "position": 30,
+      "position": 37,
       "cut": false,
       "live": false,
-      "toPar": "+1",
+      "toPar": "+2",
       "r1": "72",
       "r2": "--",
       "r3": "--",
