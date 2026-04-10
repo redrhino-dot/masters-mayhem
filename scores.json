@@ -1,6 +1,6 @@
 {
   "currentRound": "R2",
-  "lastUpdated": "20:51 BST",
+  "lastUpdated": "20:52 BST",
   "source": "ESPN HTML",
   "players": {
     "Rory McIlroy": {
@@ -114,7 +114,7 @@
       "r4": "--"
     },
     "Patrick Cantlay": {
-      "position": 49,
+      "position": 48,
       "cut": false,
       "live": false,
       "toPar": "+4",
@@ -124,7 +124,7 @@
       "r4": "--"
     },
     "Jon Rahm": {
-      "position": 49,
+      "position": 48,
       "cut": false,
       "live": false,
       "toPar": "+4",
@@ -274,7 +274,7 @@
       "r4": "--"
     },
     "Bryson DeChambeau": {
-      "position": 45,
+      "position": 44,
       "cut": false,
       "live": false,
       "toPar": "+3",
@@ -294,7 +294,7 @@
       "r4": "--"
     },
     "Corey Conners": {
-      "position": 49,
+      "position": 48,
       "cut": false,
       "live": false,
       "toPar": "+4",
@@ -334,7 +334,7 @@
       "r4": "--"
     },
     "Si Woo Kim": {
-      "position": 49,
+      "position": 48,
       "cut": false,
       "live": false,
       "toPar": "+4",
