@@ -1,6 +1,6 @@
 {
   "currentRound": "R2",
-  "lastUpdated": "20:29 BST",
+  "lastUpdated": "20:32 BST",
   "source": "ESPN HTML",
   "players": {
     "Rory McIlroy": {
@@ -24,7 +24,7 @@
       "r4": "--"
     },
     "Russell Henley": {
-      "position": 22,
+      "position": 23,
       "cut": false,
       "live": false,
       "toPar": "E",
@@ -44,7 +44,7 @@
       "r4": "--"
     },
     "Cameron Young": {
-      "position": 22,
+      "position": 23,
       "cut": false,
       "live": false,
       "toPar": "E",
@@ -164,7 +164,7 @@
       "r4": "--"
     },
     "Ludvig Aberg": {
-      "position": 22,
+      "position": 23,
       "cut": false,
       "live": false,
       "toPar": "E",
@@ -194,17 +194,17 @@
       "r4": "--"
     },
     "Cameron Smith": {
-      "position": 48,
+      "position": 56,
       "cut": false,
       "live": false,
-      "toPar": "+4",
+      "toPar": "+5",
       "r1": "74",
       "r2": "--",
       "r3": "--",
       "r4": "--"
     },
     "Scottie Scheffler": {
-      "position": 22,
+      "position": 23,
       "cut": false,
       "live": false,
       "toPar": "E",
@@ -244,7 +244,7 @@
       "r4": "--"
     },
     "JJ Spaun": {
-      "position": 57,
+      "position": 56,
       "cut": false,
       "live": false,
       "toPar": "+5",
@@ -344,10 +344,10 @@
       "r4": "--"
     },
     "Harris English": {
-      "position": 22,
+      "position": 18,
       "cut": false,
       "live": false,
-      "toPar": "E",
+      "toPar": "-1",
       "r1": "73",
       "r2": "--",
       "r3": "--",
