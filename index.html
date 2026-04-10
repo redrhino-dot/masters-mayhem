@@ -215,15 +215,24 @@ async function loadScores(){
     if(data.currentRound)state.currentRound=data.currentRound;
     if(data.lastUpdated)state.lastUpdated=data.lastUpdated;
     if(data.players){
-      Object.entries(data.players).forEach(([name,info])=>{
-        if(!state.players[name])state.players[name]={position:999,toPar:'--',r1:'--',r2:'--',r3:'--',r4:'--',cut:false,live:false};
-        const p=state.players[name];
-        if(info.position!=null)p.position=info.position;
-        if(info.toPar)p.toPar=info.toPar;
-        ['r1','r2','r3','r4'].forEach(r=>{if(info[r]&&info[r]!=='--')p[r]=info[r];});
-        p.cut=!!info.cut;p.live=!!info.live;
-      });
-    }
+  Object.entries(data.players).forEach(([name,info])=>{
+    if(!state.players[name])return;
+    const p=state.players[name];
+    if(info.position!=null)p.position=info.position;
+    if(info.toPar)p.toPar=info.toPar;
+    ['r1','r2','r3','r4'].forEach(r=>{if(info[r]&&info[r]!=='--')p[r]=info[r];});
+    p.cut=!!info.cut;p.live=!!info.live;
+  });
+
+  // Assign cut players cutline + 1
+  const positions = Object.values(state.players)
+    .filter(p=>!p.cut && p.position!=null)
+    .map(p=>p.position);
+  const cutline = positions.length ? Math.max(...positions) : 999;
+  Object.values(state.players).forEach(p=>{
+    if(p.cut) p.position = cutline + 1;
+  });
+}
     renderAll();
     setLiveStatus(true,'Data: '+data.lastUpdated+' · Fetched: '+nowBST());
     document.getElementById('infoUpdated').textContent='Data: '+data.lastUpdated+' · Fetched: '+nowBST();
