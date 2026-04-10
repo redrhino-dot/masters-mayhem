@@ -19,49 +19,51 @@ TEAM_PLAYERS = [
 ]
 
 SLUG_MAP = {
-    'rory-mcilroy':       'Rory McIlroy',
-    'tommy-fleetwood':    'Tommy Fleetwood',
-    'russell-henley':     'Russell Henley',
-    'gary-woodland':      'Gary Woodland',
-    'cameron-young':      'Cameron Young',
-    'adam-scott':         'Adam Scott',
-    'shane-lowry':        'Shane Lowry',
-    'justin-thomas':      'Justin Thomas',
-    'hideki-matsuyama':   'Hideki Matsuyama',
-    'patrick-reed':       'Patrick Reed',
-    'collin-morikawa':    'Collin Morikawa',
-    'patrick-cantlay':    'Patrick Cantlay',
-    'jon-rahm':           'Jon Rahm',
-    'jacob-bridgeman':    'Jacob Bridgeman',
-    'jake-knapp':         'Jake Knapp',
-    'sepp-straka':        'Sepp Straka',
-    'ludvig-aberg':       'Ludvig Aberg',
-    'jordan-spieth':      'Jordan Spieth',
-    'sungjae-im':         'Sung-Jae Im',
-    'sung-jae-im':        'Sung-Jae Im',
-    'cameron-smith':      'Cameron Smith',
-    'scottie-scheffler':  'Scottie Scheffler',
-    'chris-gotterup':     'Chris Gotterup',
-    'akshay-bhatia':      'Akshay Bhatia',
-    'daniel-berger':      'Daniel Berger',
-    'jj-spaun':           'JJ Spaun',
-    'j.j.-spaun':         'JJ Spaun',
-    'justin-rose':        'Justin Rose',
-    'nicolai-hjgaard':    'Nicolai Hojgaard',
-    'nicolai-hojgaard':   'Nicolai Hojgaard',
-    'jason-day':          'Jason Day',
-    'bryson-dechambeau':  'Bryson DeChambeau',
-    'brooks-koepka':      'Brooks Koepka',
-    'corey-conners':      'Corey Conners',
-    'max-homa':           'Max Homa',
-    'xander-schauffele':  'Xander Schauffele',
-    'min-woo-lee':        'Min Woo Lee',
-    'si-woo-kim':         'Si Woo Kim',
-    'harris-english':     'Harris English',
-    'matt-fitzpatrick':   'Matt Fitzpatrick',
-    'robert-macintyre':   'Robert MacIntyre',
-    'tyrrell-hatton':     'Tyrrell Hatton',
-    'ryan-gerard':        'Ryan Gerard',
+    'rory-mcilroy':               'Rory McIlroy',
+    'tommy-fleetwood':            'Tommy Fleetwood',
+    'russell-henley':             'Russell Henley',
+    'gary-woodland':              'Gary Woodland',
+    'cameron-young':              'Cameron Young',
+    'adam-scott':                 'Adam Scott',
+    'shane-lowry':                'Shane Lowry',
+    'justin-thomas':              'Justin Thomas',
+    'hideki-matsuyama':           'Hideki Matsuyama',
+    'patrick-reed':               'Patrick Reed',
+    'collin-morikawa':            'Collin Morikawa',
+    'patrick-cantlay':            'Patrick Cantlay',
+    'jon-rahm':                   'Jon Rahm',
+    'jacob-bridgeman':            'Jacob Bridgeman',
+    'jake-knapp':                 'Jake Knapp',
+    'sepp-straka':                'Sepp Straka',
+    'ludvig-aberg':               'Ludvig Aberg',
+    'jordan-spieth':              'Jordan Spieth',
+    'sungjae-im':                 'Sung-Jae Im',
+    'sung-jae-im':                'Sung-Jae Im',
+    'cameron-smith':              'Cameron Smith',
+    'scottie-scheffler':          'Scottie Scheffler',
+    'chris-gotterup':             'Chris Gotterup',
+    'akshay-bhatia':              'Akshay Bhatia',
+    'daniel-berger':              'Daniel Berger',
+    'jj-spaun':                   'JJ Spaun',
+    'j.j.-spaun':                 'JJ Spaun',
+    'justin-rose':                'Justin Rose',
+    'nicolai-hjgaard':            'Nicolai Hojgaard',  # ø stripped
+    'nicolai-hojgaard':           'Nicolai Hojgaard',  # ø → o
+    'nicolai-h%c3%b8jgaard':      'Nicolai Hojgaard',  # ø percent-encoded lowercase
+    'nicolai-h%C3%B8jgaard':      'Nicolai Hojgaard',  # ø percent-encoded uppercase
+    'jason-day':                  'Jason Day',
+    'bryson-dechambeau':          'Bryson DeChambeau',
+    'brooks-koepka':              'Brooks Koepka',
+    'corey-conners':              'Corey Conners',
+    'max-homa':                   'Max Homa',
+    'xander-schauffele':          'Xander Schauffele',
+    'min-woo-lee':                'Min Woo Lee',
+    'si-woo-kim':                 'Si Woo Kim',
+    'harris-english':             'Harris English',
+    'matt-fitzpatrick':           'Matt Fitzpatrick',
+    'robert-macintyre':           'Robert MacIntyre',
+    'tyrrell-hatton':             'Tyrrell Hatton',
+    'ryan-gerard':                'Ryan Gerard',
 }
 
 HEADERS = {
@@ -83,12 +85,12 @@ def parse_pos(t):
     m = re.match(r'T?(\d+)', t)
     return (int(m.group(1)), False) if m else (None, False)
 
-# Pre-compile one pattern per slug: matches href=".../{slug}" exactly
 def build_patterns(slug_map):
     patterns = {}
-    for slug, name in slug_map.items():
+    for slug in slug_map:
         patterns[slug] = re.compile(
-            r'href=["\'][^"\']*/' + re.escape(slug) + r'["\'/]'
+            r'href=["\'][^"\']*/' + re.escape(slug) + r'["\'/]',
+            re.IGNORECASE
         )
     return patterns
 
