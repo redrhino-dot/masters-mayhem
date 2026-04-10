@@ -47,6 +47,8 @@ SLUG_MAP = {
     'jj-spaun':                   'JJ Spaun',
     'j.j.-spaun':                 'JJ Spaun',
     'justin-rose':                'Justin Rose',
+    'nicolai-h\u00f8jgaard':  'Nicolai Hojgaard',  # actual ø character
+'nicolai-h%C3%B8jgaard':  'Nicolai Hojgaard',  # percent-encoded (uppercase)
     'nicolai-hjgaard':            'Nicolai Hojgaard',  # ø stripped
     'nicolai-hojgaard':           'Nicolai Hojgaard',  # ø → o
     'nicolai-h%c3%b8jgaard':      'Nicolai Hojgaard',  # ø percent-encoded lowercase
