@@ -47,7 +47,8 @@ SLUG_MAP = {
     'jj-spaun':           'JJ Spaun',
     'j.j.-spaun':         'JJ Spaun',
     'justin-rose':        'Justin Rose',
-    'nicolai-hojgaard':   'Nicolai Hojgaard',
+    'nicolai-hjgaard':    'Nicolai Hojgaard',   # ← ESPN strips ø entirely → hjgaard
+    'nicolai-hojgaard':   'Nicolai Hojgaard',   # fallback variant
     'jason-day':          'Jason Day',
     'bryson-dechambeau':  'Bryson DeChambeau',
     'brooks-koepka':      'Brooks Koepka',
@@ -71,9 +72,6 @@ HEADERS = {
     'Cache-Control': 'no-cache',
     'Referer': 'https://www.espn.com/golf/',
 }
-
-def to_ascii(s):
-    return unicodedata.normalize('NFKD', s).encode('ascii', 'ignore').decode('ascii').lower()
 
 def strip_tags(s):
     return re.sub(r'<[^>]+>', '', s).strip()
@@ -114,8 +112,6 @@ def detect_round(html):
 
 def parse(html):
     scores = {}
-
-    # ── Pass 1: slug-based search ──────────────────────────────
     for slug, our_name in SLUG_MAP.items():
         if our_name in scores:
             continue
@@ -132,47 +128,9 @@ def parse(html):
         }
         print(f"  [slug] {our_name:<22} pos={str(pos_text):<6} toPar={to_par:<5} R1={r1} R2={r2}")
 
-    # ── Pass 2: name-text fallback ─────────────────────────────
-    # Strips inner tags from anchors so <a><span>Name</span></a> works too
     missing = [p for p in TEAM_PLAYERS if p not in scores]
     if missing:
-        print(f"  Fallback for: {missing}")
-        fallback_map = {to_ascii(p.split()[-1]): p for p in missing}
-
-        for m in re.finditer(r'<a[^>]*>(.*?)</a>', html, re.DOTALL):
-            raw_inner = m.group(1)
-            text = strip_tags(raw_inner).strip()
-            if not text or len(text) > 50:
-                continue
-            norm = to_ascii(text)
-            for word in norm.split():
-                if word not in fallback_map:
-                    continue
-                our_name = fallback_map[word]
-                if our_name in scores:
-                    continue
-                first = to_ascii(our_name.split()[0])
-                if first not in norm:
-                    continue
-                idx = m.start()
-                tds = get_row(html, idx)
-                pos_text = next((t for t in tds if t and t != ' '), None)
-                pos, cut = parse_pos(pos_text) if pos_text else (None, False)
-                to_par, r1, r2, r3, r4 = extract_scores(html, idx)
-                scores[our_name] = {
-                    'position': pos, 'cut': cut, 'live': False,
-                    'toPar': to_par, 'r1': r1, 'r2': r2, 'r3': r3, 'r4': r4,
-                }
-                print(f"  [name] {our_name:<22} pos={str(pos_text):<6} toPar={to_par:<5} R1={r1} R2={r2}")
-
-    # ── Pass 3: mark anything still missing as CUT ─────────────
-    for p in TEAM_PLAYERS:
-        if p not in scores:
-            print(f"  [cut?] {p} not found in HTML — marking as CUT")
-            scores[p] = {
-                'position': None, 'cut': True, 'live': False,
-                'toPar': '--', 'r1': '--', 'r2': '--', 'r3': '--', 'r4': '--',
-            }
+        print(f"  Still missing after slug pass: {missing}")
 
     return scores, detect_round(html)
 
@@ -189,12 +147,15 @@ if __name__ == '__main__':
             f.write(html)
 
         scores, rnd = parse(html)
-        matched = [p for p in scores if not scores[p].get('cut')]
-        missing  = [p for p in TEAM_PLAYERS if p not in scores]
+        missing = [p for p in TEAM_PLAYERS if p not in scores]
         print(f"  Round detected: {rnd}")
-        print(f"  Active: {len(matched)} | Total: {len(scores)}/{len(TEAM_PLAYERS)}")
+        print(f"  Matched {len(scores)}/{len(TEAM_PLAYERS)}")
         if missing:
-            print(f"  Still missing: {missing}")
+            print(f"  Missing: {missing}")
+
+        if len(scores) == 0:
+            print("  No players matched — aborting.")
+            sys.exit(1)
 
         result = {
             'currentRound': rnd,
