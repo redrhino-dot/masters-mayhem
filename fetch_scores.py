@@ -88,7 +88,7 @@ def build_patterns(slug_map):
     patterns = {}
     for slug, name in slug_map.items():
         patterns[slug] = re.compile(
-            r'href=["\']https?://[^"\']*/' + re.escape(slug) + r'["\'/]'
+            r'href=["\'][^"\']*/' + re.escape(slug) + r'["\'/]'
         )
     return patterns
 
