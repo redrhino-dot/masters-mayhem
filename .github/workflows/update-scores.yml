@@ -1,0 +1,44 @@
+name: Update Masters Scores
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Fetch live scores from ESPN
+        run: python fetch_scores.py
+
+      - name: Upload debug HTML
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: debug-espn-html
+          path: debug_espn.html
+          retention-days: 1
+
+      - name: Commit scores.json if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add scores.json debug_espn.html
+          git diff --cached --quiet || git commit -m "Update scores $(date -u '+%H:%M UTC')"
+          git push
