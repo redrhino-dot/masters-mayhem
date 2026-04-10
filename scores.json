@@ -1,6 +1,6 @@
 {
   "currentRound": "R2",
-  "lastUpdated": "21:32 BST",
+  "lastUpdated": "21:37 BST",
   "source": "ESPN HTML",
   "players": {
     "Rory McIlroy": {
@@ -194,7 +194,7 @@
       "r4": "--"
     },
     "Cameron Smith": {
-      "position": 55,
+      "position": 56,
       "cut": false,
       "live": false,
       "toPar": "+5",
@@ -244,7 +244,7 @@
       "r4": "--"
     },
     "JJ Spaun": {
-      "position": 55,
+      "position": 56,
       "cut": false,
       "live": false,
       "toPar": "+5",
