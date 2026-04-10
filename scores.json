@@ -1,6 +1,6 @@
 {
   "currentRound": "R2",
-  "lastUpdated": "22:44 BST",
+  "lastUpdated": "22:52 BST",
   "source": "ESPN HTML",
   "players": {
     "Rory McIlroy": {
@@ -44,10 +44,10 @@
       "r4": "--"
     },
     "Cameron Young": {
-      "position": 15,
+      "position": 12,
       "cut": false,
       "live": false,
-      "toPar": "-2",
+      "toPar": "-3",
       "r1": "73",
       "r2": "--",
       "r3": "--",
@@ -84,7 +84,7 @@
       "r4": "--"
     },
     "Hideki Matsuyama": {
-      "position": 15,
+      "position": 16,
       "cut": false,
       "live": false,
       "toPar": "-2",
@@ -124,7 +124,7 @@
       "r4": "--"
     },
     "Jon Rahm": {
-      "position": 47,
+      "position": 48,
       "cut": false,
       "live": false,
       "toPar": "+4",
@@ -144,7 +144,7 @@
       "r4": "--"
     },
     "Jake Knapp": {
-      "position": 15,
+      "position": 16,
       "cut": false,
       "live": false,
       "toPar": "-2",
@@ -224,10 +224,10 @@
       "r4": "--"
     },
     "Akshay Bhatia": {
-      "position": 55,
+      "position": 48,
       "cut": false,
       "live": false,
-      "toPar": "+5",
+      "toPar": "+4",
       "r1": "73",
       "r2": "--",
       "r3": "--",
@@ -244,7 +244,7 @@
       "r4": "--"
     },
     "JJ Spaun": {
-      "position": 55,
+      "position": 57,
       "cut": false,
       "live": false,
       "toPar": "+5",
@@ -284,10 +284,10 @@
       "r4": "--"
     },
     "Bryson DeChambeau": {
-      "position": 47,
+      "position": 45,
       "cut": false,
       "live": false,
-      "toPar": "+4",
+      "toPar": "+3",
       "r1": "76",
       "r2": "--",
       "r3": "--",
@@ -304,7 +304,7 @@
       "r4": "--"
     },
     "Corey Conners": {
-      "position": 47,
+      "position": 48,
       "cut": false,
       "live": false,
       "toPar": "+4",
@@ -314,7 +314,7 @@
       "r4": "--"
     },
     "Max Homa": {
-      "position": 15,
+      "position": 16,
       "cut": false,
       "live": false,
       "toPar": "-2",
@@ -324,10 +324,10 @@
       "r4": "--"
     },
     "Xander Schauffele": {
-      "position": 20,
+      "position": 16,
       "cut": false,
       "live": false,
-      "toPar": "-1",
+      "toPar": "-2",
       "r1": "70",
       "r2": "--",
       "r3": "--",
@@ -344,7 +344,7 @@
       "r4": "--"
     },
     "Si Woo Kim": {
-      "position": 47,
+      "position": 48,
       "cut": false,
       "live": false,
       "toPar": "+4",
@@ -399,7 +399,7 @@
       "live": false,
       "toPar": "E",
       "r1": "72",
-      "r2": "--",
+      "r2": "72",
       "r3": "--",
       "r4": "--"
     }
