@@ -1,6 +1,6 @@
 {
   "currentRound": "R2",
-  "lastUpdated": "20:35 BST",
+  "lastUpdated": "20:41 BST",
   "source": "ESPN HTML",
   "players": {
     "Rory McIlroy": {
@@ -24,7 +24,7 @@
       "r4": "--"
     },
     "Russell Henley": {
-      "position": 22,
+      "position": 23,
       "cut": false,
       "live": false,
       "toPar": "E",
@@ -44,10 +44,10 @@
       "r4": "--"
     },
     "Cameron Young": {
-      "position": 22,
+      "position": 18,
       "cut": false,
       "live": false,
-      "toPar": "E",
+      "toPar": "-1",
       "r1": "73",
       "r2": "--",
       "r3": "--",
@@ -144,7 +144,7 @@
       "r4": "--"
     },
     "Jake Knapp": {
-      "position": 22,
+      "position": 23,
       "cut": false,
       "live": false,
       "toPar": "E",
@@ -164,7 +164,7 @@
       "r4": "--"
     },
     "Ludvig Aberg": {
-      "position": 22,
+      "position": 23,
       "cut": false,
       "live": false,
       "toPar": "E",
@@ -204,7 +204,7 @@
       "r4": "--"
     },
     "Scottie Scheffler": {
-      "position": 22,
+      "position": 23,
       "cut": false,
       "live": false,
       "toPar": "E",
@@ -224,7 +224,7 @@
       "r4": "--"
     },
     "Akshay Bhatia": {
-      "position": 15,
+      "position": 16,
       "cut": false,
       "live": false,
       "toPar": "-2",
@@ -274,7 +274,7 @@
       "r4": "--"
     },
     "Bryson DeChambeau": {
-      "position": 44,
+      "position": 45,
       "cut": false,
       "live": false,
       "toPar": "+3",
@@ -314,10 +314,10 @@
       "r4": "--"
     },
     "Xander Schauffele": {
-      "position": 15,
+      "position": 9,
       "cut": false,
       "live": false,
-      "toPar": "-2",
+      "toPar": "-3",
       "r1": "70",
       "r2": "--",
       "r3": "--",
@@ -354,10 +354,10 @@
       "r4": "--"
     },
     "Matt Fitzpatrick": {
-      "position": 44,
+      "position": 37,
       "cut": false,
       "live": false,
-      "toPar": "+3",
+      "toPar": "+2",
       "r1": "74",
       "r2": "--",
       "r3": "--",
@@ -369,7 +369,7 @@
       "live": false,
       "toPar": "+7",
       "r1": "80",
-      "r2": "--",
+      "r2": "71",
       "r3": "--",
       "r4": "--"
     },
