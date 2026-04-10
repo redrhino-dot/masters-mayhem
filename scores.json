@@ -1,30 +1,30 @@
 {
   "currentRound": "R2",
-  "lastUpdated": "21:54 BST",
+  "lastUpdated": "22:44 BST",
   "source": "ESPN HTML",
   "players": {
     "Rory McIlroy": {
       "position": 1,
       "cut": false,
       "live": false,
-      "toPar": "-6",
+      "toPar": "-8",
       "r1": "67",
       "r2": "--",
       "r3": "--",
       "r4": "--"
     },
     "Tommy Fleetwood": {
-      "position": 6,
+      "position": 2,
       "cut": false,
       "live": false,
-      "toPar": "-4",
+      "toPar": "-6",
       "r1": "71",
       "r2": "--",
       "r3": "--",
       "r4": "--"
     },
     "Russell Henley": {
-      "position": 21,
+      "position": 23,
       "cut": false,
       "live": false,
       "toPar": "E",
@@ -44,10 +44,10 @@
       "r4": "--"
     },
     "Cameron Young": {
-      "position": 21,
+      "position": 15,
       "cut": false,
       "live": false,
-      "toPar": "E",
+      "toPar": "-2",
       "r1": "73",
       "r2": "--",
       "r3": "--",
@@ -64,10 +64,10 @@
       "r4": "--"
     },
     "Shane Lowry": {
-      "position": 11,
+      "position": 7,
       "cut": false,
       "live": false,
-      "toPar": "-3",
+      "toPar": "-4",
       "r1": "70",
       "r2": "--",
       "r3": "--",
@@ -84,17 +84,17 @@
       "r4": "--"
     },
     "Hideki Matsuyama": {
-      "position": 17,
+      "position": 15,
       "cut": false,
       "live": false,
-      "toPar": "-1",
+      "toPar": "-2",
       "r1": "72",
       "r2": "--",
       "r3": "--",
       "r4": "--"
     },
     "Patrick Reed": {
-      "position": 1,
+      "position": 2,
       "cut": false,
       "live": false,
       "toPar": "-6",
@@ -104,27 +104,27 @@
       "r4": "--"
     },
     "Collin Morikawa": {
-      "position": 21,
+      "position": 20,
       "cut": false,
       "live": false,
-      "toPar": "E",
+      "toPar": "-1",
       "r1": "74",
       "r2": "--",
       "r3": "--",
       "r4": "--"
     },
     "Patrick Cantlay": {
-      "position": 42,
+      "position": 38,
       "cut": false,
       "live": false,
-      "toPar": "+3",
+      "toPar": "+2",
       "r1": "77",
       "r2": "--",
       "r3": "--",
       "r4": "--"
     },
     "Jon Rahm": {
-      "position": 49,
+      "position": 47,
       "cut": false,
       "live": false,
       "toPar": "+4",
@@ -134,7 +134,7 @@
       "r4": "--"
     },
     "Jacob Bridgeman": {
-      "position": 30,
+      "position": 31,
       "cut": false,
       "live": false,
       "toPar": "+1",
@@ -144,17 +144,17 @@
       "r4": "--"
     },
     "Jake Knapp": {
-      "position": 21,
+      "position": 15,
       "cut": false,
       "live": false,
-      "toPar": "E",
+      "toPar": "-2",
       "r1": "73",
-      "r2": "--",
+      "r2": "69",
       "r3": "--",
       "r4": "--"
     },
     "Sepp Straka": {
-      "position": 30,
+      "position": 31,
       "cut": false,
       "live": false,
       "toPar": "+1",
@@ -164,7 +164,7 @@
       "r4": "--"
     },
     "Ludvig Aberg": {
-      "position": 21,
+      "position": 23,
       "cut": false,
       "live": false,
       "toPar": "E",
@@ -174,7 +174,7 @@
       "r4": "--"
     },
     "Jordan Spieth": {
-      "position": 30,
+      "position": 31,
       "cut": false,
       "live": false,
       "toPar": "+1",
@@ -184,7 +184,7 @@
       "r4": "--"
     },
     "Sung-Jae Im": {
-      "position": 30,
+      "position": 31,
       "cut": false,
       "live": false,
       "toPar": "+1",
@@ -194,17 +194,17 @@
       "r4": "--"
     },
     "Cameron Smith": {
-      "position": 56,
+      "position": 64,
       "cut": false,
       "live": false,
-      "toPar": "+5",
+      "toPar": "+7",
       "r1": "74",
-      "r2": "--",
+      "r2": "77",
       "r3": "--",
       "r4": "--"
     },
     "Scottie Scheffler": {
-      "position": 21,
+      "position": 23,
       "cut": false,
       "live": false,
       "toPar": "E",
@@ -214,7 +214,7 @@
       "r4": "--"
     },
     "Chris Gotterup": {
-      "position": 11,
+      "position": 12,
       "cut": false,
       "live": false,
       "toPar": "-3",
@@ -224,17 +224,17 @@
       "r4": "--"
     },
     "Akshay Bhatia": {
-      "position": 49,
+      "position": 55,
       "cut": false,
       "live": false,
-      "toPar": "+4",
+      "toPar": "+5",
       "r1": "73",
       "r2": "--",
       "r3": "--",
       "r4": "--"
     },
     "Daniel Berger": {
-      "position": 70,
+      "position": 69,
       "cut": false,
       "live": false,
       "toPar": "+8",
@@ -244,7 +244,7 @@
       "r4": "--"
     },
     "JJ Spaun": {
-      "position": 56,
+      "position": 55,
       "cut": false,
       "live": false,
       "toPar": "+5",
@@ -254,7 +254,7 @@
       "r4": "--"
     },
     "Justin Rose": {
-      "position": 3,
+      "position": 5,
       "cut": false,
       "live": false,
       "toPar": "-5",
@@ -264,7 +264,7 @@
       "r4": "--"
     },
     "Nicolai Hojgaard": {
-      "position": 63,
+      "position": 62,
       "cut": false,
       "live": false,
       "toPar": "+6",
@@ -274,7 +274,7 @@
       "r4": "--"
     },
     "Jason Day": {
-      "position": 3,
+      "position": 5,
       "cut": false,
       "live": false,
       "toPar": "-5",
@@ -284,17 +284,17 @@
       "r4": "--"
     },
     "Bryson DeChambeau": {
-      "position": 42,
+      "position": 47,
       "cut": false,
       "live": false,
-      "toPar": "+3",
+      "toPar": "+4",
       "r1": "76",
       "r2": "--",
       "r3": "--",
       "r4": "--"
     },
     "Brooks Koepka": {
-      "position": 11,
+      "position": 12,
       "cut": false,
       "live": false,
       "toPar": "-3",
@@ -304,7 +304,7 @@
       "r4": "--"
     },
     "Corey Conners": {
-      "position": 49,
+      "position": 47,
       "cut": false,
       "live": false,
       "toPar": "+4",
@@ -324,10 +324,10 @@
       "r4": "--"
     },
     "Xander Schauffele": {
-      "position": 15,
+      "position": 20,
       "cut": false,
       "live": false,
-      "toPar": "-2",
+      "toPar": "-1",
       "r1": "70",
       "r2": "--",
       "r3": "--",
@@ -344,7 +344,7 @@
       "r4": "--"
     },
     "Si Woo Kim": {
-      "position": 49,
+      "position": 47,
       "cut": false,
       "live": false,
       "toPar": "+4",
@@ -354,7 +354,7 @@
       "r4": "--"
     },
     "Harris English": {
-      "position": 21,
+      "position": 23,
       "cut": false,
       "live": false,
       "toPar": "E",
@@ -364,7 +364,7 @@
       "r4": "--"
     },
     "Matt Fitzpatrick": {
-      "position": 21,
+      "position": 23,
       "cut": false,
       "live": false,
       "toPar": "E",
@@ -374,7 +374,7 @@
       "r4": "--"
     },
     "Robert MacIntyre": {
-      "position": 65,
+      "position": 64,
       "cut": false,
       "live": false,
       "toPar": "+7",
@@ -384,7 +384,7 @@
       "r4": "--"
     },
     "Tyrrell Hatton": {
-      "position": 6,
+      "position": 7,
       "cut": false,
       "live": false,
       "toPar": "-4",
@@ -394,10 +394,10 @@
       "r4": "--"
     },
     "Ryan Gerard": {
-      "position": 30,
+      "position": 23,
       "cut": false,
       "live": false,
-      "toPar": "+1",
+      "toPar": "E",
       "r1": "72",
       "r2": "--",
       "r3": "--",
