@@ -1,370 +1,60 @@
 {
   "currentRound": "R2",
-  "lastUpdated": "21:03 BST",
-  "source": "ESPN HTML",
+  "lastUpdated": "21:11 BST",
+  "source": "ESPN JSON API",
   "players": {
-    "Rory McIlroy": {
-      "position": 1,
-      "cut": false,
-      "live": false,
-      "toPar": "-7",
-      "r1": "67",
-      "r2": "--",
-      "r3": "--",
-      "r4": "--"
-    },
-    "Tommy Fleetwood": {
-      "position": 4,
-      "cut": false,
-      "live": false,
-      "toPar": "-4",
-      "r1": "71",
-      "r2": "--",
-      "r3": "--",
-      "r4": "--"
-    },
-    "Russell Henley": {
-      "position": 22,
-      "cut": false,
-      "live": false,
-      "toPar": "E",
-      "r1": "73",
-      "r2": "--",
-      "r3": "--",
-      "r4": "--"
-    },
-    "Gary Woodland": {
-      "position": 39,
-      "cut": false,
-      "live": false,
-      "toPar": "+2",
-      "r1": "71",
-      "r2": "75",
-      "r3": "--",
-      "r4": "--"
-    },
-    "Cameron Young": {
-      "position": 18,
-      "cut": false,
-      "live": false,
-      "toPar": "-1",
-      "r1": "73",
-      "r2": "--",
-      "r3": "--",
-      "r4": "--"
-    },
-    "Adam Scott": {
-      "position": 39,
-      "cut": false,
-      "live": false,
-      "toPar": "+2",
-      "r1": "72",
-      "r2": "74",
-      "r3": "--",
-      "r4": "--"
-    },
-    "Shane Lowry": {
-      "position": 11,
-      "cut": false,
-      "live": false,
-      "toPar": "-3",
-      "r1": "70",
-      "r2": "--",
-      "r3": "--",
-      "r4": "--"
-    },
-    "Justin Thomas": {
-      "position": 39,
-      "cut": false,
-      "live": false,
-      "toPar": "+2",
-      "r1": "72",
-      "r2": "74",
-      "r3": "--",
-      "r4": "--"
-    },
-    "Hideki Matsuyama": {
-      "position": 17,
-      "cut": false,
-      "live": false,
-      "toPar": "-2",
-      "r1": "72",
-      "r2": "--",
-      "r3": "--",
-      "r4": "--"
-    },
-    "Patrick Reed": {
-      "position": 2,
-      "cut": false,
-      "live": false,
-      "toPar": "-5",
-      "r1": "69",
-      "r2": "--",
-      "r3": "--",
-      "r4": "--"
-    },
-    "Collin Morikawa": {
-      "position": 22,
-      "cut": false,
-      "live": false,
-      "toPar": "E",
-      "r1": "74",
-      "r2": "--",
-      "r3": "--",
-      "r4": "--"
-    },
-    "Patrick Cantlay": {
-      "position": 48,
-      "cut": false,
-      "live": false,
-      "toPar": "+4",
-      "r1": "77",
-      "r2": "--",
-      "r3": "--",
-      "r4": "--"
-    },
-    "Jon Rahm": {
-      "position": 48,
-      "cut": false,
-      "live": false,
-      "toPar": "+4",
-      "r1": "78",
-      "r2": "70",
-      "r3": "--",
-      "r4": "--"
-    },
-    "Jacob Bridgeman": {
-      "position": 30,
-      "cut": false,
-      "live": false,
-      "toPar": "+1",
-      "r1": "71",
-      "r2": "74",
-      "r3": "--",
-      "r4": "--"
-    },
-    "Jake Knapp": {
-      "position": 39,
-      "cut": false,
-      "live": false,
-      "toPar": "+2",
-      "r1": "73",
-      "r2": "--",
-      "r3": "--",
-      "r4": "--"
-    },
-    "Sepp Straka": {
-      "position": 30,
-      "cut": false,
-      "live": false,
-      "toPar": "+1",
-      "r1": "73",
-      "r2": "72",
-      "r3": "--",
-      "r4": "--"
-    },
-    "Ludvig Aberg": {
-      "position": 22,
-      "cut": false,
-      "live": false,
-      "toPar": "E",
-      "r1": "74",
-      "r2": "70",
-      "r3": "--",
-      "r4": "--"
-    },
-    "Jordan Spieth": {
-      "position": 30,
-      "cut": false,
-      "live": false,
-      "toPar": "+1",
-      "r1": "72",
-      "r2": "73",
-      "r3": "--",
-      "r4": "--"
-    },
-    "Sung-Jae Im": {
-      "position": 30,
-      "cut": false,
-      "live": false,
-      "toPar": "+1",
-      "r1": "76",
-      "r2": "69",
-      "r3": "--",
-      "r4": "--"
-    },
-    "Cameron Smith": {
-      "position": 56,
-      "cut": false,
-      "live": false,
-      "toPar": "+5",
-      "r1": "74",
-      "r2": "--",
-      "r3": "--",
-      "r4": "--"
-    },
-    "Scottie Scheffler": {
-      "position": 22,
-      "cut": false,
-      "live": false,
-      "toPar": "E",
-      "r1": "70",
-      "r2": "74",
-      "r3": "--",
-      "r4": "--"
-    },
-    "Chris Gotterup": {
-      "position": 11,
-      "cut": false,
-      "live": false,
-      "toPar": "-3",
-      "r1": "72",
-      "r2": "69",
-      "r3": "--",
-      "r4": "--"
-    },
-    "Akshay Bhatia": {
-      "position": 22,
-      "cut": false,
-      "live": false,
-      "toPar": "E",
-      "r1": "73",
-      "r2": "--",
-      "r3": "--",
-      "r4": "--"
-    },
-    "Daniel Berger": {
-      "position": 70,
-      "cut": false,
-      "live": false,
-      "toPar": "+8",
-      "r1": "76",
-      "r2": "76",
-      "r3": "--",
-      "r4": "--"
-    },
-    "JJ Spaun": {
-      "position": 56,
-      "cut": false,
-      "live": false,
-      "toPar": "+5",
-      "r1": "74",
-      "r2": "75",
-      "r3": "--",
-      "r4": "--"
-    },
-    "Justin Rose": {
-      "position": 2,
-      "cut": false,
-      "live": false,
-      "toPar": "-5",
-      "r1": "70",
-      "r2": "69",
-      "r3": "--",
-      "r4": "--"
-    },
-    "Jason Day": {
-      "position": 4,
-      "cut": false,
-      "live": false,
-      "toPar": "-4",
-      "r1": "69",
-      "r2": "--",
-      "r3": "--",
-      "r4": "--"
-    },
     "Bryson DeChambeau": {
-      "position": 44,
+      "position": null,
       "cut": false,
-      "live": false,
-      "toPar": "+3",
-      "r1": "76",
-      "r2": "--",
-      "r3": "--",
-      "r4": "--"
-    },
-    "Brooks Koepka": {
-      "position": 11,
-      "cut": false,
-      "live": false,
-      "toPar": "-3",
-      "r1": "72",
-      "r2": "69",
-      "r3": "--",
-      "r4": "--"
-    },
-    "Corey Conners": {
-      "position": 48,
-      "cut": false,
-      "live": false,
+      "live": true,
       "toPar": "+4",
-      "r1": "75",
-      "r2": "73",
-      "r3": "--",
-      "r4": "--"
-    },
-    "Max Homa": {
-      "position": 11,
-      "cut": false,
-      "live": false,
-      "toPar": "-3",
-      "r1": "72",
-      "r2": "--",
+      "r1": "76",
+      "r2": "39",
       "r3": "--",
       "r4": "--"
     },
     "Xander Schauffele": {
-      "position": 11,
+      "position": null,
       "cut": false,
-      "live": false,
-      "toPar": "-3",
+      "live": true,
+      "toPar": "-2",
       "r1": "70",
-      "r2": "--",
+      "r2": "38",
       "r3": "--",
       "r4": "--"
     },
-    "Min Woo Lee": {
-      "position": 82,
+    "JJ Spaun": {
+      "position": null,
       "cut": false,
       "live": false,
-      "toPar": "+11",
-      "r1": "78",
-      "r2": "77",
-      "r3": "--",
-      "r4": "--"
-    },
-    "Si Woo Kim": {
-      "position": 48,
-      "cut": false,
-      "live": false,
-      "toPar": "+4",
-      "r1": "75",
-      "r2": "73",
-      "r3": "--",
-      "r4": "--"
-    },
-    "Harris English": {
-      "position": 22,
-      "cut": false,
-      "live": false,
-      "toPar": "E",
-      "r1": "73",
-      "r2": "71",
-      "r3": "--",
-      "r4": "--"
-    },
-    "Matt Fitzpatrick": {
-      "position": 30,
-      "cut": false,
-      "live": false,
-      "toPar": "+1",
+      "toPar": "+5",
       "r1": "74",
-      "r2": "--",
+      "r2": "75",
+      "r3": "--",
+      "r4": "--"
+    },
+    "Collin Morikawa": {
+      "position": null,
+      "cut": false,
+      "live": true,
+      "toPar": "+2",
+      "r1": "74",
+      "r2": "34",
+      "r3": "--",
+      "r4": "--"
+    },
+    "Nicolai Hojgaard": {
+      "position": null,
+      "cut": false,
+      "live": false,
+      "toPar": "+6",
+      "r1": "76",
+      "r2": "74",
       "r3": "--",
       "r4": "--"
     },
     "Robert MacIntyre": {
-      "position": 67,
+      "position": null,
       "cut": false,
       "live": false,
       "toPar": "+7",
@@ -373,8 +63,188 @@
       "r3": "--",
       "r4": "--"
     },
+    "Sung-Jae Im": {
+      "position": null,
+      "cut": false,
+      "live": false,
+      "toPar": "+1",
+      "r1": "76",
+      "r2": "69",
+      "r3": "--",
+      "r4": "--"
+    },
+    "Jason Day": {
+      "position": null,
+      "cut": false,
+      "live": true,
+      "toPar": "-3",
+      "r1": "69",
+      "r2": "46",
+      "r3": "--",
+      "r4": "--"
+    },
+    "Rory McIlroy": {
+      "position": null,
+      "cut": false,
+      "live": true,
+      "toPar": "-5",
+      "r1": "67",
+      "r2": "30",
+      "r3": "--",
+      "r4": "--"
+    },
+    "Gary Woodland": {
+      "position": null,
+      "cut": false,
+      "live": false,
+      "toPar": "+2",
+      "r1": "71",
+      "r2": "75",
+      "r3": "--",
+      "r4": "--"
+    },
+    "Adam Scott": {
+      "position": null,
+      "cut": false,
+      "live": false,
+      "toPar": "+2",
+      "r1": "72",
+      "r2": "74",
+      "r3": "--",
+      "r4": "--"
+    },
+    "Ludvig Aberg": {
+      "position": null,
+      "cut": false,
+      "live": false,
+      "toPar": "E",
+      "r1": "74",
+      "r2": "70",
+      "r3": "--",
+      "r4": "--"
+    },
+    "Min Woo Lee": {
+      "position": null,
+      "cut": false,
+      "live": false,
+      "toPar": "+11",
+      "r1": "78",
+      "r2": "77",
+      "r3": "--",
+      "r4": "--"
+    },
+    "Akshay Bhatia": {
+      "position": null,
+      "cut": false,
+      "live": true,
+      "toPar": "+1",
+      "r1": "73",
+      "r2": "39",
+      "r3": "--",
+      "r4": "--"
+    },
+    "Cameron Young": {
+      "position": null,
+      "cut": false,
+      "live": true,
+      "toPar": "+1",
+      "r1": "73",
+      "r2": "30",
+      "r3": "--",
+      "r4": "--"
+    },
+    "Shane Lowry": {
+      "position": null,
+      "cut": false,
+      "live": true,
+      "toPar": "-2",
+      "r1": "70",
+      "r2": "46",
+      "r3": "--",
+      "r4": "--"
+    },
+    "Chris Gotterup": {
+      "position": null,
+      "cut": false,
+      "live": false,
+      "toPar": "-3",
+      "r1": "72",
+      "r2": "69",
+      "r3": "--",
+      "r4": "--"
+    },
+    "Justin Thomas": {
+      "position": null,
+      "cut": false,
+      "live": false,
+      "toPar": "+2",
+      "r1": "72",
+      "r2": "74",
+      "r3": "--",
+      "r4": "--"
+    },
+    "Jacob Bridgeman": {
+      "position": null,
+      "cut": false,
+      "live": false,
+      "toPar": "+1",
+      "r1": "71",
+      "r2": "74",
+      "r3": "--",
+      "r4": "--"
+    },
+    "Ryan Gerard": {
+      "position": null,
+      "cut": false,
+      "live": true,
+      "toPar": "E",
+      "r1": "72",
+      "r2": "48",
+      "r3": "--",
+      "r4": "--"
+    },
+    "Harris English": {
+      "position": null,
+      "cut": false,
+      "live": false,
+      "toPar": "E",
+      "r1": "73",
+      "r2": "71",
+      "r3": "--",
+      "r4": "--"
+    },
+    "Russell Henley": {
+      "position": null,
+      "cut": false,
+      "live": true,
+      "toPar": "+1",
+      "r1": "73",
+      "r2": "34",
+      "r3": "--",
+      "r4": "--"
+    },
+    "Jordan Spieth": {
+      "position": null,
+      "cut": false,
+      "live": false,
+      "toPar": "+1",
+      "r1": "72",
+      "r2": "73",
+      "r3": "--",
+      "r4": "--"
+    },
+    "Tommy Fleetwood": {
+      "position": null,
+      "cut": false,
+      "live": true,
+      "toPar": "-1",
+      "r1": "71",
+      "r2": "37",
+      "r3": "--",
+      "r4": "--"
+    },
     "Tyrrell Hatton": {
-      "position": 4,
+      "position": null,
       "cut": false,
       "live": false,
       "toPar": "-4",
@@ -383,13 +253,153 @@
       "r3": "--",
       "r4": "--"
     },
-    "Ryan Gerard": {
-      "position": 30,
+    "Patrick Reed": {
+      "position": null,
+      "cut": false,
+      "live": true,
+      "toPar": "-3",
+      "r1": "69",
+      "r2": "38",
+      "r3": "--",
+      "r4": "--"
+    },
+    "Justin Rose": {
+      "position": null,
+      "cut": false,
+      "live": false,
+      "toPar": "-5",
+      "r1": "70",
+      "r2": "69",
+      "r3": "--",
+      "r4": "--"
+    },
+    "Hideki Matsuyama": {
+      "position": null,
+      "cut": false,
+      "live": true,
+      "toPar": "E",
+      "r1": "72",
+      "r2": "34",
+      "r3": "--",
+      "r4": "--"
+    },
+    "Patrick Cantlay": {
+      "position": null,
+      "cut": false,
+      "live": true,
+      "toPar": "+5",
+      "r1": "77",
+      "r2": "26",
+      "r3": "--",
+      "r4": "--"
+    },
+    "Brooks Koepka": {
+      "position": null,
+      "cut": false,
+      "live": false,
+      "toPar": "-3",
+      "r1": "72",
+      "r2": "69",
+      "r3": "--",
+      "r4": "--"
+    },
+    "Si Woo Kim": {
+      "position": null,
+      "cut": false,
+      "live": false,
+      "toPar": "+4",
+      "r1": "75",
+      "r2": "73",
+      "r3": "--",
+      "r4": "--"
+    },
+    "Sepp Straka": {
+      "position": null,
       "cut": false,
       "live": false,
       "toPar": "+1",
+      "r1": "73",
+      "r2": "72",
+      "r3": "--",
+      "r4": "--"
+    },
+    "Max Homa": {
+      "position": null,
+      "cut": false,
+      "live": true,
+      "toPar": "E",
       "r1": "72",
-      "r2": "--",
+      "r2": "65",
+      "r3": "--",
+      "r4": "--"
+    },
+    "Daniel Berger": {
+      "position": null,
+      "cut": false,
+      "live": false,
+      "toPar": "+8",
+      "r1": "76",
+      "r2": "76",
+      "r3": "--",
+      "r4": "--"
+    },
+    "Matt Fitzpatrick": {
+      "position": null,
+      "cut": false,
+      "live": true,
+      "toPar": "+2",
+      "r1": "74",
+      "r2": "39",
+      "r3": "--",
+      "r4": "--"
+    },
+    "Corey Conners": {
+      "position": null,
+      "cut": false,
+      "live": false,
+      "toPar": "+4",
+      "r1": "75",
+      "r2": "73",
+      "r3": "--",
+      "r4": "--"
+    },
+    "Cameron Smith": {
+      "position": null,
+      "cut": false,
+      "live": true,
+      "toPar": "+2",
+      "r1": "74",
+      "r2": "54",
+      "r3": "--",
+      "r4": "--"
+    },
+    "Scottie Scheffler": {
+      "position": null,
+      "cut": false,
+      "live": false,
+      "toPar": "E",
+      "r1": "70",
+      "r2": "74",
+      "r3": "--",
+      "r4": "--"
+    },
+    "Jon Rahm": {
+      "position": null,
+      "cut": false,
+      "live": false,
+      "toPar": "+4",
+      "r1": "78",
+      "r2": "70",
+      "r3": "--",
+      "r4": "--"
+    },
+    "Jake Knapp": {
+      "position": null,
+      "cut": false,
+      "live": true,
+      "toPar": "+1",
+      "r1": "73",
+      "r2": "51",
       "r3": "--",
       "r4": "--"
     }
