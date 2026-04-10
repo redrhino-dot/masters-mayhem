@@ -1,6 +1,6 @@
 {
   "currentRound": "R2",
-  "lastUpdated": "23:22 BST",
+  "lastUpdated": "23:29 BST",
   "source": "ESPN HTML",
   "players": {
     "Rory McIlroy": {
@@ -24,10 +24,10 @@
       "r4": "--"
     },
     "Russell Henley": {
-      "position": 17,
+      "position": 20,
       "cut": false,
       "live": false,
-      "toPar": "-2",
+      "toPar": "-1",
       "r1": "73",
       "r2": "--",
       "r3": "--",
@@ -104,7 +104,7 @@
       "r4": "--"
     },
     "Collin Morikawa": {
-      "position": 21,
+      "position": 20,
       "cut": false,
       "live": false,
       "toPar": "-1",
@@ -114,17 +114,17 @@
       "r4": "--"
     },
     "Patrick Cantlay": {
-      "position": 39,
+      "position": 31,
       "cut": false,
       "live": false,
-      "toPar": "+2",
+      "toPar": "+1",
       "r1": "77",
       "r2": "--",
       "r3": "--",
       "r4": "--"
     },
     "Jon Rahm": {
-      "position": 48,
+      "position": 47,
       "cut": false,
       "live": false,
       "toPar": "+4",
@@ -224,7 +224,7 @@
       "r4": "--"
     },
     "Akshay Bhatia": {
-      "position": 61,
+      "position": 60,
       "cut": false,
       "live": false,
       "toPar": "+6",
@@ -244,7 +244,7 @@
       "r4": "--"
     },
     "JJ Spaun": {
-      "position": 56,
+      "position": 55,
       "cut": false,
       "live": false,
       "toPar": "+5",
@@ -264,7 +264,7 @@
       "r4": "--"
     },
     "Nicolai Hojgaard": {
-      "position": 61,
+      "position": 60,
       "cut": false,
       "live": false,
       "toPar": "+6",
@@ -284,12 +284,12 @@
       "r4": "--"
     },
     "Bryson DeChambeau": {
-      "position": 45,
+      "position": 60,
       "cut": false,
       "live": false,
-      "toPar": "+3",
+      "toPar": "+6",
       "r1": "76",
-      "r2": "--",
+      "r2": "74",
       "r3": "--",
       "r4": "--"
     },
@@ -304,7 +304,7 @@
       "r4": "--"
     },
     "Corey Conners": {
-      "position": 48,
+      "position": 47,
       "cut": false,
       "live": false,
       "toPar": "+4",
@@ -329,7 +329,7 @@
       "live": false,
       "toPar": "-2",
       "r1": "70",
-      "r2": "--",
+      "r2": "72",
       "r3": "--",
       "r4": "--"
     },
@@ -344,7 +344,7 @@
       "r4": "--"
     },
     "Si Woo Kim": {
-      "position": 48,
+      "position": 47,
       "cut": false,
       "live": false,
       "toPar": "+4",
@@ -364,12 +364,12 @@
       "r4": "--"
     },
     "Matt Fitzpatrick": {
-      "position": 21,
+      "position": 20,
       "cut": false,
       "live": false,
       "toPar": "-1",
       "r1": "74",
-      "r2": "--",
+      "r2": "69",
       "r3": "--",
       "r4": "--"
     },
