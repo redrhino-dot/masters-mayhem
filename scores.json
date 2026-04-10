@@ -1,6 +1,6 @@
 {
   "currentRound": "R2",
-  "lastUpdated": "00:06 BST",
+  "lastUpdated": "00:51 BST",
   "source": "ESPN HTML",
   "players": {
     "Rory McIlroy": {
@@ -119,7 +119,7 @@
       "live": false,
       "toPar": "E",
       "r1": "77",
-      "r2": "--",
+      "r2": "67",
       "r3": "--",
       "r4": "--"
     },
@@ -194,10 +194,10 @@
       "r4": "--"
     },
     "Cameron Smith": {
-      "position": 64,
+      "position": null,
       "cut": false,
       "live": false,
-      "toPar": "+7",
+      "toPar": "CUT",
       "r1": "74",
       "r2": "77",
       "r3": "--",
@@ -224,30 +224,30 @@
       "r4": "--"
     },
     "Akshay Bhatia": {
-      "position": 60,
+      "position": null,
       "cut": false,
       "live": false,
-      "toPar": "+6",
+      "toPar": "CUT",
       "r1": "73",
       "r2": "77",
       "r3": "--",
       "r4": "--"
     },
     "Daniel Berger": {
-      "position": 69,
+      "position": null,
       "cut": false,
       "live": false,
-      "toPar": "+8",
+      "toPar": "CUT",
       "r1": "76",
       "r2": "76",
       "r3": "--",
       "r4": "--"
     },
     "JJ Spaun": {
-      "position": 55,
+      "position": null,
       "cut": false,
       "live": false,
-      "toPar": "+5",
+      "toPar": "CUT",
       "r1": "74",
       "r2": "75",
       "r3": "--",
@@ -264,10 +264,10 @@
       "r4": "--"
     },
     "Nicolai Hojgaard": {
-      "position": 60,
+      "position": null,
       "cut": false,
       "live": false,
-      "toPar": "+6",
+      "toPar": "CUT",
       "r1": "76",
       "r2": "74",
       "r3": "--",
@@ -284,10 +284,10 @@
       "r4": "--"
     },
     "Bryson DeChambeau": {
-      "position": 60,
+      "position": null,
       "cut": false,
       "live": false,
-      "toPar": "+6",
+      "toPar": "CUT",
       "r1": "76",
       "r2": "74",
       "r3": "--",
@@ -334,10 +334,10 @@
       "r4": "--"
     },
     "Min Woo Lee": {
-      "position": 79,
+      "position": null,
       "cut": false,
       "live": false,
-      "toPar": "+11",
+      "toPar": "CUT",
       "r1": "78",
       "r2": "77",
       "r3": "--",
@@ -374,10 +374,10 @@
       "r4": "--"
     },
     "Robert MacIntyre": {
-      "position": 64,
+      "position": null,
       "cut": false,
       "live": false,
-      "toPar": "+7",
+      "toPar": "CUT",
       "r1": "80",
       "r2": "71",
       "r3": "--",
