@@ -115,7 +115,6 @@ def parse(html):
     for slug, our_name in SLUG_MAP.items():
         if our_name in scores:
             continue
-        # rfind = last occurrence, skips JSON blob near top of page
         idx = html.rfind(f'/{slug}')
         if idx == -1:
             continue
