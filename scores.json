@@ -1,6 +1,6 @@
 {
   "currentRound": "R2",
-  "lastUpdated": "20:32 BST",
+  "lastUpdated": "20:35 BST",
   "source": "ESPN HTML",
   "players": {
     "Rory McIlroy": {
@@ -24,7 +24,7 @@
       "r4": "--"
     },
     "Russell Henley": {
-      "position": 23,
+      "position": 22,
       "cut": false,
       "live": false,
       "toPar": "E",
@@ -34,17 +34,17 @@
       "r4": "--"
     },
     "Gary Woodland": {
-      "position": 43,
+      "position": 37,
       "cut": false,
       "live": false,
-      "toPar": "+3",
+      "toPar": "+2",
       "r1": "71",
-      "r2": "--",
+      "r2": "75",
       "r3": "--",
       "r4": "--"
     },
     "Cameron Young": {
-      "position": 23,
+      "position": 22,
       "cut": false,
       "live": false,
       "toPar": "E",
@@ -114,7 +114,7 @@
       "r4": "--"
     },
     "Patrick Cantlay": {
-      "position": 48,
+      "position": 49,
       "cut": false,
       "live": false,
       "toPar": "+4",
@@ -124,7 +124,7 @@
       "r4": "--"
     },
     "Jon Rahm": {
-      "position": 48,
+      "position": 49,
       "cut": false,
       "live": false,
       "toPar": "+4",
@@ -134,7 +134,7 @@
       "r4": "--"
     },
     "Jacob Bridgeman": {
-      "position": 29,
+      "position": 30,
       "cut": false,
       "live": false,
       "toPar": "+1",
@@ -144,17 +144,17 @@
       "r4": "--"
     },
     "Jake Knapp": {
-      "position": 18,
+      "position": 22,
       "cut": false,
       "live": false,
-      "toPar": "-1",
+      "toPar": "E",
       "r1": "73",
       "r2": "--",
       "r3": "--",
       "r4": "--"
     },
     "Sepp Straka": {
-      "position": 29,
+      "position": 30,
       "cut": false,
       "live": false,
       "toPar": "+1",
@@ -164,7 +164,7 @@
       "r4": "--"
     },
     "Ludvig Aberg": {
-      "position": 23,
+      "position": 22,
       "cut": false,
       "live": false,
       "toPar": "E",
@@ -174,7 +174,7 @@
       "r4": "--"
     },
     "Jordan Spieth": {
-      "position": 29,
+      "position": 30,
       "cut": false,
       "live": false,
       "toPar": "+1",
@@ -184,7 +184,7 @@
       "r4": "--"
     },
     "Sung-Jae Im": {
-      "position": 29,
+      "position": 30,
       "cut": false,
       "live": false,
       "toPar": "+1",
@@ -204,12 +204,12 @@
       "r4": "--"
     },
     "Scottie Scheffler": {
-      "position": 23,
+      "position": 22,
       "cut": false,
       "live": false,
       "toPar": "E",
       "r1": "70",
-      "r2": "--",
+      "r2": "74",
       "r3": "--",
       "r4": "--"
     },
@@ -234,7 +234,7 @@
       "r4": "--"
     },
     "Daniel Berger": {
-      "position": 71,
+      "position": 70,
       "cut": false,
       "live": false,
       "toPar": "+8",
@@ -274,10 +274,10 @@
       "r4": "--"
     },
     "Bryson DeChambeau": {
-      "position": 48,
+      "position": 44,
       "cut": false,
       "live": false,
-      "toPar": "+4",
+      "toPar": "+3",
       "r1": "76",
       "r2": "--",
       "r3": "--",
@@ -294,7 +294,7 @@
       "r4": "--"
     },
     "Corey Conners": {
-      "position": 48,
+      "position": 49,
       "cut": false,
       "live": false,
       "toPar": "+4",
@@ -334,7 +334,7 @@
       "r4": "--"
     },
     "Si Woo Kim": {
-      "position": 48,
+      "position": 49,
       "cut": false,
       "live": false,
       "toPar": "+4",
@@ -354,7 +354,7 @@
       "r4": "--"
     },
     "Matt Fitzpatrick": {
-      "position": 43,
+      "position": 44,
       "cut": false,
       "live": false,
       "toPar": "+3",
@@ -364,7 +364,7 @@
       "r4": "--"
     },
     "Robert MacIntyre": {
-      "position": 66,
+      "position": 67,
       "cut": false,
       "live": false,
       "toPar": "+7",
@@ -374,7 +374,7 @@
       "r4": "--"
     },
     "Tyrrell Hatton": {
-      "position": 6,
+      "position": 5,
       "cut": false,
       "live": false,
       "toPar": "-4",
@@ -384,7 +384,7 @@
       "r4": "--"
     },
     "Ryan Gerard": {
-      "position": 29,
+      "position": 30,
       "cut": false,
       "live": false,
       "toPar": "+1",
