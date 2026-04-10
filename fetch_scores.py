@@ -83,6 +83,19 @@ def parse_pos(t):
     m = re.match(r'T?(\d+)', t)
     return (int(m.group(1)), False) if m else (None, False)
 
+def find_in_leaderboard(html, slug):
+    """Find slug only where leaderboardplayername appears within 300 chars before it."""
+    search = f'/{slug}'
+    start = 0
+    while True:
+        idx = html.find(search, start)
+        if idx == -1:
+            return -1
+        context = html[max(0, idx - 300):idx]
+        if 'leaderboardplayername' in context:
+            return idx
+        start = idx + 1
+
 def get_row(html, idx):
     tr_start = html.rfind('<tr', 0, idx)
     tr_end   = html.find('</tr>', idx)
@@ -115,7 +128,7 @@ def parse(html):
     for slug, our_name in SLUG_MAP.items():
         if our_name in scores:
             continue
-        idx = html.rfind(f'/{slug}')
+        idx = find_in_leaderboard(html, slug)
         if idx == -1:
             continue
         tds = get_row(html, idx)
