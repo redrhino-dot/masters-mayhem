@@ -1,6 +1,6 @@
 {
   "currentRound": "R2",
-  "lastUpdated": "20:45 BST",
+  "lastUpdated": "20:50 BST",
   "source": "ESPN HTML",
   "players": {
     "Rory McIlroy": {
@@ -34,7 +34,7 @@
       "r4": "--"
     },
     "Gary Woodland": {
-      "position": 37,
+      "position": 38,
       "cut": false,
       "live": false,
       "toPar": "+2",
@@ -54,7 +54,7 @@
       "r4": "--"
     },
     "Adam Scott": {
-      "position": 37,
+      "position": 38,
       "cut": false,
       "live": false,
       "toPar": "+2",
@@ -74,7 +74,7 @@
       "r4": "--"
     },
     "Justin Thomas": {
-      "position": 37,
+      "position": 38,
       "cut": false,
       "live": false,
       "toPar": "+2",
@@ -104,10 +104,10 @@
       "r4": "--"
     },
     "Collin Morikawa": {
-      "position": 37,
+      "position": 30,
       "cut": false,
       "live": false,
-      "toPar": "+2",
+      "toPar": "+1",
       "r1": "74",
       "r2": "--",
       "r3": "--",
@@ -134,7 +134,7 @@
       "r4": "--"
     },
     "Jacob Bridgeman": {
-      "position": 31,
+      "position": 30,
       "cut": false,
       "live": false,
       "toPar": "+1",
@@ -144,17 +144,17 @@
       "r4": "--"
     },
     "Jake Knapp": {
-      "position": 22,
+      "position": 38,
       "cut": false,
       "live": false,
-      "toPar": "E",
+      "toPar": "+2",
       "r1": "73",
       "r2": "--",
       "r3": "--",
       "r4": "--"
     },
     "Sepp Straka": {
-      "position": 31,
+      "position": 30,
       "cut": false,
       "live": false,
       "toPar": "+1",
@@ -174,7 +174,7 @@
       "r4": "--"
     },
     "Jordan Spieth": {
-      "position": 31,
+      "position": 30,
       "cut": false,
       "live": false,
       "toPar": "+1",
@@ -184,7 +184,7 @@
       "r4": "--"
     },
     "Sung-Jae Im": {
-      "position": 31,
+      "position": 30,
       "cut": false,
       "live": false,
       "toPar": "+1",
@@ -354,10 +354,10 @@
       "r4": "--"
     },
     "Matt Fitzpatrick": {
-      "position": 37,
+      "position": 30,
       "cut": false,
       "live": false,
-      "toPar": "+2",
+      "toPar": "+1",
       "r1": "74",
       "r2": "--",
       "r3": "--",
@@ -384,7 +384,7 @@
       "r4": "--"
     },
     "Ryan Gerard": {
-      "position": 37,
+      "position": 38,
       "cut": false,
       "live": false,
       "toPar": "+2",
