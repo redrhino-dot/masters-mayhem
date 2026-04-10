@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<title>Masters Mayhem 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--green-deep:#002a18;--green:#006747;--gold:#c9a84c;--bg:#0f110e;--surface:#181a16;--surface-2:#20231e;--surface-3:#282b25;--border:rgba(255,255,255,.07);--border-gold:rgba(201,168,76,.25);--text:#edeae2;--text-muted:#888878;--text-faint:#484840;--score-green:#27ae60;--r-md:10px;--r-lg:16px}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-font-smoothing:antialiased}
+body{background:var(--bg);color:var(--text);font-family:'Inter',system-ui,sans-serif;font-size:15px;line-height:1.6;min-height:100dvh}
+.hdr{background:var(--green-deep);border-bottom:1px solid var(--border-gold);padding:13px 20px 11px;text-align:center;position:sticky;top:0;z-index:100}
+.hdr-inner{display:flex;align-items:center;justify-content:center;gap:10px;margin-bottom:3px}
+.hdr h1{font-family:'Libre Baskerville',Georgia,serif;font-size:1.2rem;font-weight:400;color:var(--gold);letter-spacing:.03em}
+.hdr-meta{display:flex;align-items:center;justify-content:center;gap:10px}
+.hdr-sub{font-size:.68rem;color:rgba(255,255,255,.4);letter-spacing:.07em;text-transform:uppercase}
+.live-dot{display:inline-flex;align-items:center;gap:4px;font-size:.68rem;font-weight:600;letter-spacing:.05em;text-transform:uppercase}
+.live-dot.live{color:#5ab87a}.live-dot.live::before{content:'';width:6px;height:6px;border-radius:50%;background:#27ae60;animation:pulse 1.5s ease-in-out infinite}
+.live-dot.stale{color:var(--text-faint)}.live-dot.stale::before{content:'';width:6px;height:6px;border-radius:50%;background:var(--text-faint)}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
+.refresh-btn{position:absolute;right:14px;top:50%;transform:translateY(-50%);background:none;border:1px solid rgba(201,168,76,.3);border-radius:50%;width:34px;height:34px;cursor:pointer;color:var(--gold);font-size:1.2rem;display:flex;align-items:center;justify-content:center}
+.tabs{display:flex;background:var(--surface);border-bottom:1px solid var(--border);overflow-x:auto;scrollbar-width:none;position:sticky;top:60px;z-index:99}
+.tabs::-webkit-scrollbar{display:none}
+.tab{flex:1;min-width:80px;padding:11px 10px;background:none;border:none;border-bottom:2px solid transparent;color:var(--text-muted);font-family:inherit;font-size:.73rem;font-weight:500;cursor:pointer;transition:all .18s;white-space:nowrap}
+.tab.on{color:var(--gold);border-bottom-color:var(--gold)}.tab:hover:not(.on){color:var(--text);background:rgba(255,255,255,.03)}
+.main{max-width:660px;margin:0 auto;padding:16px}
+.panel{display:none}.panel.on{display:block}
+.info-bar{display:flex;align-items:center;justify-content:space-between;background:var(--surface);border:1px solid var(--border);border-radius:var(--r-md);padding:9px 15px;margin-bottom:14px}
+.info-bar span{font-size:.77rem;color:var(--text-muted)}.info-bar strong{color:var(--text)}
+.stitle{font-size:.67rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--text-faint);margin:16px 0 8px}
+.ltable{background:var(--surface);border:1px solid var(--border);border-radius:var(--r-lg);overflow:hidden;margin-bottom:18px}
+.lrow{display:grid;grid-template-columns:44px 1fr auto auto;align-items:center;padding:12px 15px;border-bottom:1px solid var(--border);gap:10px}
+.lrow:last-child{border-bottom:none}.lrow.winner{background:linear-gradient(90deg,rgba(201,168,76,.07) 0%,transparent 60%)}
+.rank{text-align:center;font-size:1.05rem}
+.tname{font-weight:600;font-size:.92rem}
+.ltopar{font-size:.88rem;font-weight:600;text-align:right;color:var(--text-muted)}
+.tscore{font-size:1.2rem;font-weight:700;color:var(--gold);font-variant-numeric:tabular-nums}
+.tcard{background:var(--surface);border:1px solid var(--border);border-radius:var(--r-lg);margin-bottom:9px;overflow:hidden}
+.tcard-hdr{background:var(--surface-2);padding:10px 15px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--border)}
+.tcard-name{font-weight:600;font-size:.92rem}
+.tcard-right{display:flex;align-items:center;gap:12px}
+.tcard-topar{font-size:1rem;font-weight:700}
+.tcard-total{font-size:.78rem;color:var(--text-faint)}
+.rnd-hdr{display:grid;grid-template-columns:1fr auto auto;padding:5px 15px 4px;border-bottom:1px solid var(--border);background:var(--surface-3)}
+.rnd-hdr>span{font-size:.62rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--text-faint)}
+.rnd-hdr .rh-right{display:flex;gap:40px}
+.prow{display:grid;grid-template-columns:1fr auto auto;align-items:center;padding:9px 15px;gap:8px;border-bottom:1px solid rgba(255,255,255,.04)}
+.prow:last-child{border-bottom:none}
+.pinfo{min-width:0}
+.pname{font-size:.86rem;display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.prounds{font-size:.68rem;color:var(--text-faint);margin-top:2px;font-variant-numeric:tabular-nums}
+.prounds span.scored{color:var(--text-muted)}
+.ptopar{font-size:.95rem;font-weight:700;min-width:40px;text-align:right;font-variant-numeric:tabular-nums}
+.ptopar.under{color:var(--score-green)}.ptopar.over{color:#e07060}.ptopar.even{color:var(--text)}.ptopar.na{color:var(--text-faint)}
+.ppos{font-size:.82rem;font-weight:600;min-width:32px;text-align:right;color:var(--text-muted)}
+.ppos.top{color:var(--score-green)}.ppos.mid{color:var(--text)}.ppos.bot{color:#e07060}.ppos.cut{color:#e07060;font-size:.72rem}
+.badge{border-radius:100px;font-size:.58rem;padding:2px 7px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;line-height:1.5}
+.bl{background:rgba(201,168,76,.1);color:var(--gold);border:1px solid rgba(201,168,76,.3)}
+.bc{background:rgba(192,57,43,.1);color:#e07060;border:1px solid rgba(192,57,43,.3)}
+.bf{background:rgba(39,174,96,.08);color:#5ab87a;border:1px solid rgba(39,174,96,.22)}
+</style>
+</head>
+<body>
+<header class="hdr" style="position:sticky;top:0">
+  <div class="hdr-inner">
+    <svg width="24" height="24" viewBox="0 0 32 32" fill="none">
+      <ellipse cx="16" cy="16" rx="13" ry="13" fill="#004d33"/>
+      <path d="M16 5C16 5 9 12 9 20c0 5.5 3 8 7 8s7-2.5 7-8c0-8-7-15-7-15z" fill="#006747" stroke="rgba(201,168,76,.5)" stroke-width=".8"/>
+      <line x1="16" y1="5" x2="16" y2="28" stroke="rgba(201,168,76,.3)" stroke-width=".6"/>
+    </svg>
+    <h1>Masters Mayhem 2026</h1>
+  </div>
+  <div class="hdr-meta">
+    <span class="hdr-sub" id="hdrRound">Round 1</span>
+    <span class="live-dot stale" id="liveDot">Loading…</span>
+  </div>
+  <button class="refresh-btn" id="refreshBtn" onclick="manualRefresh()" title="Refresh scores">↻</button>
+</header>
+
+<nav class="tabs" id="tabBar">
+  <button class="tab on" data-panel="overall">Overall</button>
+  <button class="tab" data-panel="teams">All Teams</button>
+</nav>
+
+<main class="main">
+  <div id="panel-overall" class="panel on">
+    <div class="info-bar">
+      <span>🏆 <strong id="infoRound">Round 1</strong> Standings</span>
+      <span id="infoUpdated" style="font-size:.72rem">—</span>
+    </div>
+    <p class="stitle">League Table</p>
+    <div class="ltable" id="tbl-overall"></div>
+    <p class="stitle">Team Scores</p>
+    <div id="cards-overall"></div>
+  </div>
+
+  <div id="panel-teams" class="panel">
+    <div class="info-bar"><span>All 10 teams</span></div>
+    <div id="cards-teams"></div>
+  </div>
+</main>
+
+<script>
+const TEAMS={
+  Dean:   ['Rory McIlroy','Tommy Fleetwood','Russell Henley','Gary Woodland'],
+  Elliot: ['Cameron Young','Adam Scott','Shane Lowry','Justin Thomas'],
+  Bowles: ['Hideki Matsuyama','Patrick Reed','Collin Morikawa','Patrick Cantlay'],
+  Calum:  ['Jon Rahm','Jacob Bridgeman','Jake Knapp','Sepp Straka'],
+  Romano: ['Ludvig Aberg','Jordan Spieth','Sung-Jae Im','Cameron Smith'],
+  Scaffy: ['Scottie Scheffler','Chris Gotterup','Akshay Bhatia','Daniel Berger'],
+  'John X':['JJ Spaun','Justin Rose','Nicolai Hojgaard','Jason Day'],
+  Lewbo:  ['Bryson DeChambeau','Brooks Koepka','Corey Conners','Max Homa'],
+  Reido:  ['Xander Schauffele','Min Woo Lee','Si Woo Kim','Harris English'],
+  Gerard: ['Matt Fitzpatrick','Robert MacIntyre','Tyrrell Hatton','Ryan Gerard'],
+};
+const ALL_TEAMS=['Dean','Elliot','Bowles','Calum','Romano','Scaffy','John X','Lewbo','Reido','Gerard'];
+const MEDALS=['🥇','🥈','🥉'];
+const ROUND_LABELS={R1:'Round 1',R2:'Round 2',R3:'Round 3',R4:'Round 4'};
+
+// ── Replace PASTE_YOUR_NEW_PAT_HERE with your token split in two ──
+const PAT=['github_pat_11B4JHOFQ0bADrMxqWvjq8_qnTCLHGmsTCHQHxhDV','1gw9lBcTY4wuzXKNciB2spXIeIWCMLJZHnSuE4wZW'].join('');
+const REPO='redrhino-dot/masters-mayhem';
+const WORKFLOW='update-scores.yml';
+
+const state={currentRound:'R1',lastUpdated:'Loading…',players:{}};
+ALL_TEAMS.forEach(t=>TEAMS[t].forEach(p=>{
+  if(!state.players[p])state.players[p]={position:999,toPar:'--',r1:'--',r2:'--',r3:'--',r4:'--',cut:false,live:false};
+}));
+
+function nowBST(){return new Date().toLocaleTimeString('en-GB',{hour:'2-digit',minute:'2-digit',timeZone:'Europe/London'})+' BST';}
+function toParInt(s){if(!s||s==='--'||s==='E')return 0;const n=parseInt(s);return isNaN(n)?0:n;}
+function toParClass(s){if(!s||s==='--')return'na';if(s.startsWith('-'))return'under';if(s==='E')return'even';return'over';}
+function posClass(pos,cut){if(cut)return'cut';if(!pos||pos>=999)return'na';if(pos<=10)return'top';if(pos<=40)return'mid';return'bot';}
+function fmtToPar(n){if(n===0)return'E';return(n>0?'+':'')+n;}
+function playerScore(name){const d=state.players[name];if(!d||d.cut)return 999;return d.position||999;}
+function teamScore(t){return TEAMS[t].reduce((s,p)=>s+playerScore(p),0);}
+function teamToPar(t){return TEAMS[t].reduce((s,p)=>{const d=state.players[p];if(!d||d.cut)return s+20;return s+toParInt(d.toPar);},0);}
+function allRanked(){return ALL_TEAMS.map(t=>({name:t,score:teamScore(t),topar:teamToPar(t)})).sort((a,b)=>a.score-b.score);}
+
+function renderLeagueTable(){
+  document.getElementById('tbl-overall').innerHTML=allRanked().map((t,i)=>`
+    <div class="lrow${i===0?' winner':''}">
+      <div class="rank">${MEDALS[i]||i+1}</div>
+      <div class="tname">${t.name}</div>
+      <div class="ltopar">${fmtToPar(t.topar)}</div>
+      <div class="tscore">${t.score>=3996?'--':t.score}</div>
+    </div>`).join('');
+}
+
+function roundsHtml(d){
+  return['r1','r2','r3','r4'].map((r,i)=>{
+    const v=d[r];const ok=v&&v!=='--';
+    return`<span class="${ok?'scored':''}">${'R'+(i+1)}:${ok?v:'--'}</span>`;
+  }).join(' · ');
+}
+
+function renderTeamCards(id,teams){
+  document.getElementById(id).innerHTML=teams.map(team=>{
+    const sc=teamScore(team);const tp=teamToPar(team);
+    const tpCls=tp<0?'under':tp>0?'over':'even';
+    const rows=TEAMS[team].map(p=>{
+      const d=state.players[p];if(!d)return'';
+      const badge=d.cut?'<span class="badge bc">Cut</span>':d.live?'<span class="badge bl">Live</span>':'<span class="badge bf">F</span>';
+      const posStr=d.cut?'CUT':(d.position&&d.position<999?d.position:'--');
+      const tp2=d.toPar||'--';
+      return`<div class="prow">
+        <div class="pinfo">
+          <div class="pname">${p} ${badge}</div>
+          <div class="prounds">${roundsHtml(d)}</div>
+        </div>
+        <div class="ptopar ${toParClass(tp2)}">${tp2}</div>
+        <div class="ppos ${posClass(d.position,d.cut)}">${posStr}</div>
+      </div>`;
+    }).join('');
+    return`<div class="tcard">
+      <div class="tcard-hdr">
+        <div class="tcard-name">${team}</div>
+        <div class="tcard-right">
+          <span class="tcard-topar ptopar ${tpCls}">${fmtToPar(tp)}</span>
+          <span class="tcard-total">pos ${sc>=3996?'--':sc}</span>
+        </div>
+      </div>
+      <div class="rnd-hdr"><span>Player</span><div class="rh-right"><span>Score</span><span>Pos</span></div></div>
+      ${rows}
+    </div>`;
+  }).join('');
+}
+
+function renderAll(){
+  try{
+    renderLeagueTable();
+    renderTeamCards('cards-overall',allRanked().map(t=>t.name));
+    renderTeamCards('cards-teams',allRanked().map(t=>t.name));
+    const rl=ROUND_LABELS[state.currentRound]||state.currentRound;
+    document.getElementById('hdrRound').textContent=rl;
+    document.getElementById('infoRound').textContent=rl;
+  }catch(e){console.error('renderAll:',e);}
+}
+
+function setLiveStatus(live,msg){
+  const dot=document.getElementById('liveDot');
+  dot.className='live-dot '+(live?'live':'stale');
+  dot.textContent=msg;
+}
+
+async function loadScores(){
+  try{
+    const resp=await fetch('./scores.json?t='+Date.now());
+    if(!resp.ok)throw new Error('HTTP '+resp.status);
+    const data=await resp.json();
+    if(data.currentRound)state.currentRound=data.currentRound;
+    if(data.lastUpdated)state.lastUpdated=data.lastUpdated;
+    if(data.players){
+      Object.entries(data.players).forEach(([name,info])=>{
+        if(!state.players[name])state.players[name]={position:999,toPar:'--',r1:'--',r2:'--',r3:'--',r4:'--',cut:false,live:false};
+        const p=state.players[name];
+        if(info.position!=null)p.position=info.position;
+        if(info.toPar)p.toPar=info.toPar;
+        ['r1','r2','r3','r4'].forEach(r=>{if(info[r]&&info[r]!=='--')p[r]=info[r];});
+        p.cut=!!info.cut;p.live=!!info.live;
+      });
+    }
+    renderAll();
+    setLiveStatus(true,'Data: '+data.lastUpdated+' · Fetched: '+nowBST());
+    document.getElementById('infoUpdated').textContent='Data: '+data.lastUpdated+' · Fetched: '+nowBST();
+  }catch(e){
+    console.warn('loadScores:',e.message);
+    renderAll();
+    setLiveStatus(false,'Snapshot (offline)');
+  }
+}
+
+async function manualRefresh(){
+  const btn=document.getElementById('refreshBtn');
+  btn.disabled=true;btn.style.opacity='.4';btn.textContent='⏳';
+  try{
+    await fetch(`https://api.github.com/repos/${REPO}/actions/workflows/${WORKFLOW}/dispatches`,{
+      method:'POST',
+      headers:{'Authorization':'Bearer '+PAT,'Accept':'application/vnd.github.v3+json','Content-Type':'application/json'},
+      body:JSON.stringify({ref:'main'})
+    });
+    setLiveStatus(false,'Running action…');
+    await new Promise(r=>setTimeout(r,22000));
+    await loadScores();
+  }catch(e){
+    console.warn('manualRefresh:',e);
+    await loadScores();
+  }
+  btn.disabled=false;btn.style.opacity='1';btn.textContent='↻';
+}
+
+document.getElementById('tabBar').addEventListener('click',e=>{
+  const btn=e.target.closest('.tab');if(!btn)return;
+  document.querySelectorAll('.panel').forEach(p=>p.classList.remove('on'));
+  document.querySelectorAll('.tab').forEach(t=>t.classList.remove('on'));
+  document.getElementById('panel-'+btn.dataset.panel).classList.add('on');
+  btn.classList.add('on');
+});
+
+renderAll();
+loadScores();
+setInterval(loadScores,5*60*1000);
+</script>
+</body>
+</html>
