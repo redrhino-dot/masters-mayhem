@@ -1,6 +1,6 @@
 {
   "currentRound": "R3",
-  "lastUpdated": "16:20 BST",
+  "lastUpdated": "16:52 BST",
   "source": "ESPN HTML",
   "players": {
     "Rory McIlroy": {
@@ -34,7 +34,7 @@
       "r4": "--"
     },
     "Gary Woodland": {
-      "position": 46,
+      "position": 48,
       "cut": false,
       "live": false,
       "toPar": "+4",
@@ -54,7 +54,7 @@
       "r4": "--"
     },
     "Adam Scott": {
-      "position": 40,
+      "position": 39,
       "cut": false,
       "live": false,
       "toPar": "+2",
@@ -74,7 +74,7 @@
       "r4": "--"
     },
     "Justin Thomas": {
-      "position": 40,
+      "position": 39,
       "cut": false,
       "live": false,
       "toPar": "+2",
@@ -124,7 +124,7 @@
       "r4": "--"
     },
     "Jon Rahm": {
-      "position": 44,
+      "position": 42,
       "cut": false,
       "live": false,
       "toPar": "+3",
@@ -134,7 +134,7 @@
       "r4": "--"
     },
     "Jacob Bridgeman": {
-      "position": 32,
+      "position": 35,
       "cut": false,
       "live": false,
       "toPar": "+1",
@@ -154,10 +154,10 @@
       "r4": "--"
     },
     "Sepp Straka": {
-      "position": 32,
+      "position": 24,
       "cut": false,
       "live": false,
-      "toPar": "+1",
+      "toPar": "E",
       "r1": "73",
       "r2": "72",
       "r3": "--",
@@ -174,7 +174,7 @@
       "r4": "--"
     },
     "Jordan Spieth": {
-      "position": 32,
+      "position": 35,
       "cut": false,
       "live": false,
       "toPar": "+1",
@@ -184,7 +184,7 @@
       "r4": "--"
     },
     "Sung-Jae Im": {
-      "position": 32,
+      "position": 35,
       "cut": false,
       "live": false,
       "toPar": "+1",
@@ -304,10 +304,10 @@
       "r4": "--"
     },
     "Corey Conners": {
-      "position": 51,
+      "position": 42,
       "cut": false,
       "live": false,
-      "toPar": "+5",
+      "toPar": "+3",
       "r1": "75",
       "r2": "73",
       "r3": "--",
@@ -344,10 +344,10 @@
       "r4": "--"
     },
     "Si Woo Kim": {
-      "position": 46,
+      "position": 42,
       "cut": false,
       "live": false,
-      "toPar": "+4",
+      "toPar": "+3",
       "r1": "75",
       "r2": "73",
       "r3": "--",
