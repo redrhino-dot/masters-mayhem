@@ -223,7 +223,7 @@ async function loadScores(){
     ['r1','r2','r3','r4'].forEach(r=>{if(info[r]&&info[r]!=='--')p[r]=info[r];});
     p.cut=!!info.cut;p.live=!!info.live;
   });
-  Object.values(state.players).forEach(p=>{ if(p.cut) p.position=55; });
+  Object.values(state.players).forEach(p=>{ if(p.cut || p.toPar==='CUT') p.position=55; });
 
   // Assign cut players cutline + 1
   const positions = Object.values(state.players)
