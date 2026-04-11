@@ -1,6 +1,6 @@
 {
   "currentRound": "R3",
-  "lastUpdated": "15:38 BST",
+  "lastUpdated": "15:48 BST",
   "source": "ESPN HTML",
   "players": {
     "Rory McIlroy": {
@@ -307,7 +307,7 @@
       "position": 51,
       "cut": false,
       "live": false,
-      "toPar": "+5",
+      "toPar": "+4",
       "r1": "75",
       "r2": "73",
       "r3": "--",
