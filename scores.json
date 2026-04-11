@@ -1,26 +1,26 @@
 {
   "currentRound": "R3",
-  "lastUpdated": "22:59 BST",
+  "lastUpdated": "23:45 BST",
   "source": "ESPN HTML",
   "players": {
     "Rory McIlroy": {
-      "position": 2,
+      "position": 1,
       "cut": false,
       "live": false,
-      "toPar": "-10",
+      "toPar": "-12",
       "r1": "67",
       "r2": "65",
       "r3": "--",
       "r4": "--"
     },
     "Tommy Fleetwood": {
-      "position": 16,
+      "position": 15,
       "cut": false,
       "live": false,
       "toPar": "-4",
       "r1": "71",
       "r2": "68",
-      "r3": "--",
+      "r3": "73",
       "r4": "--"
     },
     "Russell Henley": {
@@ -44,13 +44,13 @@
       "r4": "--"
     },
     "Cameron Young": {
-      "position": 1,
+      "position": 2,
       "cut": false,
       "live": false,
       "toPar": "-11",
       "r1": "73",
       "r2": "67",
-      "r3": "--",
+      "r3": "65",
       "r4": "--"
     },
     "Adam Scott": {
@@ -70,7 +70,7 @@
       "toPar": "-9",
       "r1": "70",
       "r2": "69",
-      "r3": "--",
+      "r3": "68",
       "r4": "--"
     },
     "Justin Thomas": {
@@ -94,7 +94,7 @@
       "r4": "--"
     },
     "Patrick Reed": {
-      "position": 8,
+      "position": 7,
       "cut": false,
       "live": false,
       "toPar": "-7",
@@ -104,7 +104,7 @@
       "r4": "--"
     },
     "Collin Morikawa": {
-      "position": 13,
+      "position": 12,
       "cut": false,
       "live": false,
       "toPar": "-5",
@@ -144,7 +144,7 @@
       "r4": "--"
     },
     "Jake Knapp": {
-      "position": 13,
+      "position": 12,
       "cut": false,
       "live": false,
       "toPar": "-5",
@@ -204,7 +204,7 @@
       "r4": "--"
     },
     "Scottie Scheffler": {
-      "position": 8,
+      "position": 7,
       "cut": false,
       "live": false,
       "toPar": "-7",
@@ -280,7 +280,7 @@
       "toPar": "-8",
       "r1": "69",
       "r2": "71",
-      "r3": "--",
+      "r3": "68",
       "r4": "--"
     },
     "Bryson DeChambeau": {
@@ -294,7 +294,7 @@
       "r4": "--"
     },
     "Brooks Koepka": {
-      "position": 16,
+      "position": 15,
       "cut": false,
       "live": false,
       "toPar": "-4",
@@ -324,7 +324,7 @@
       "r4": "--"
     },
     "Xander Schauffele": {
-      "position": 16,
+      "position": 15,
       "cut": false,
       "live": false,
       "toPar": "-4",
@@ -384,17 +384,17 @@
       "r4": "--"
     },
     "Tyrrell Hatton": {
-      "position": 16,
+      "position": 15,
       "cut": false,
       "live": false,
       "toPar": "-4",
       "r1": "74",
       "r2": "66",
-      "r3": "--",
+      "r3": "72",
       "r4": "--"
     },
     "Ryan Gerard": {
-      "position": 16,
+      "position": 15,
       "cut": false,
       "live": false,
       "toPar": "-4",
