@@ -1,6 +1,6 @@
 {
   "currentRound": "R3",
-  "lastUpdated": "23:46 BST",
+  "lastUpdated": "00:18 BST",
   "source": "ESPN HTML",
   "players": {
     "Rory McIlroy": {
@@ -10,7 +10,7 @@
       "toPar": "-11",
       "r1": "67",
       "r2": "65",
-      "r3": "--",
+      "r3": "73",
       "r4": "--"
     },
     "Tommy Fleetwood": {
@@ -24,7 +24,7 @@
       "r4": "--"
     },
     "Russell Henley": {
-      "position": 10,
+      "position": 9,
       "cut": false,
       "live": false,
       "toPar": "-6",
@@ -94,13 +94,13 @@
       "r4": "--"
     },
     "Patrick Reed": {
-      "position": 7,
+      "position": 9,
       "cut": false,
       "live": false,
-      "toPar": "-7",
+      "toPar": "-6",
       "r1": "69",
       "r2": "69",
-      "r3": "--",
+      "r3": "72",
       "r4": "--"
     },
     "Collin Morikawa": {
@@ -114,7 +114,7 @@
       "r4": "--"
     },
     "Patrick Cantlay": {
-      "position": 10,
+      "position": 9,
       "cut": false,
       "live": false,
       "toPar": "-6",
@@ -260,7 +260,7 @@
       "toPar": "-8",
       "r1": "70",
       "r2": "69",
-      "r3": "--",
+      "r3": "69",
       "r4": "--"
     },
     "Nicolai Hojgaard": {
