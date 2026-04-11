@@ -83,7 +83,7 @@ def strip_tags(s):
 def parse_pos(t):
     t = t.strip().upper()
     if t in ('CUT', 'MC', 'WD', 'DQ', 'MDF', 'DNF', 'RTD'):
-        return None, True
+        return 55, True
     m = re.match(r'T?(\d+)', t)
     return (int(m.group(1)), False) if m else (None, False)
 
