@@ -1,13 +1,13 @@
 {
   "currentRound": "R3",
-  "lastUpdated": "23:45 BST",
+  "lastUpdated": "23:46 BST",
   "source": "ESPN HTML",
   "players": {
     "Rory McIlroy": {
       "position": 1,
       "cut": false,
       "live": false,
-      "toPar": "-12",
+      "toPar": "-11",
       "r1": "67",
       "r2": "65",
       "r3": "--",
@@ -44,7 +44,7 @@
       "r4": "--"
     },
     "Cameron Young": {
-      "position": 2,
+      "position": 1,
       "cut": false,
       "live": false,
       "toPar": "-11",
