@@ -1,6 +1,6 @@
 {
   "currentRound": "R4",
-  "lastUpdated": "21:35 BST",
+  "lastUpdated": "21:40 BST",
   "source": "ESPN HTML",
   "players": {
     "Rory McIlroy": {
@@ -14,10 +14,10 @@
       "r4": "--"
     },
     "Tommy Fleetwood": {
-      "position": 27,
+      "position": 35,
       "cut": false,
       "live": false,
-      "toPar": "-2",
+      "toPar": "E",
       "r1": "71",
       "r2": "68",
       "r3": "73",
@@ -34,7 +34,7 @@
       "r4": "--"
     },
     "Gary Woodland": {
-      "position": 36,
+      "position": 35,
       "cut": false,
       "live": false,
       "toPar": "E",
@@ -354,7 +354,7 @@
       "r4": "72"
     },
     "Harris English": {
-      "position": 34,
+      "position": 33,
       "cut": false,
       "live": false,
       "toPar": "-1",
@@ -394,7 +394,7 @@
       "r4": "--"
     },
     "Ryan Gerard": {
-      "position": 36,
+      "position": 35,
       "cut": false,
       "live": false,
       "toPar": "E",
