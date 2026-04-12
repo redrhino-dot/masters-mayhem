@@ -1,6 +1,6 @@
 {
   "currentRound": "R4",
-  "lastUpdated": "15:55 BST",
+  "lastUpdated": "16:37 BST",
   "source": "ESPN HTML",
   "players": {
     "Rory McIlroy": {
@@ -34,10 +34,10 @@
       "r4": "--"
     },
     "Gary Woodland": {
-      "position": 47,
+      "position": 44,
       "cut": false,
       "live": false,
-      "toPar": "+3",
+      "toPar": "+2",
       "r1": "71",
       "r2": "75",
       "r3": "76",
@@ -54,10 +54,10 @@
       "r4": "--"
     },
     "Adam Scott": {
-      "position": 38,
+      "position": 33,
       "cut": false,
       "live": false,
-      "toPar": "E",
+      "toPar": "-1",
       "r1": "72",
       "r2": "74",
       "r3": "70",
@@ -74,20 +74,20 @@
       "r4": "--"
     },
     "Justin Thomas": {
-      "position": 38,
+      "position": 44,
       "cut": false,
       "live": false,
-      "toPar": "E",
+      "toPar": "+2",
       "r1": "72",
       "r2": "74",
       "r3": "71",
       "r4": "--"
     },
     "Hideki Matsuyama": {
-      "position": 29,
+      "position": 21,
       "cut": false,
       "live": false,
-      "toPar": "-2",
+      "toPar": "-3",
       "r1": "72",
       "r2": "70",
       "r3": "72",
@@ -124,17 +124,17 @@
       "r4": "--"
     },
     "Jon Rahm": {
-      "position": 48,
+      "position": 44,
       "cut": false,
       "live": false,
-      "toPar": "+4",
+      "toPar": "+2",
       "r1": "78",
       "r2": "70",
       "r3": "73",
       "r4": "--"
     },
     "Jacob Bridgeman": {
-      "position": 29,
+      "position": 30,
       "cut": false,
       "live": false,
       "toPar": "-2",
@@ -154,7 +154,7 @@
       "r4": "--"
     },
     "Sepp Straka": {
-      "position": 29,
+      "position": 30,
       "cut": false,
       "live": false,
       "toPar": "-2",
@@ -174,20 +174,20 @@
       "r4": "--"
     },
     "Jordan Spieth": {
-      "position": 33,
+      "position": 30,
       "cut": false,
       "live": false,
-      "toPar": "-1",
+      "toPar": "-2",
       "r1": "72",
       "r2": "73",
       "r3": "70",
       "r4": "--"
     },
     "Sung-Jae Im": {
-      "position": 29,
+      "position": 37,
       "cut": false,
       "live": false,
-      "toPar": "-2",
+      "toPar": "E",
       "r1": "76",
       "r2": "69",
       "r3": "69",
@@ -344,10 +344,10 @@
       "r4": "--"
     },
     "Si Woo Kim": {
-      "position": 44,
+      "position": 48,
       "cut": false,
       "live": false,
-      "toPar": "+2",
+      "toPar": "+3",
       "r1": "75",
       "r2": "73",
       "r3": "72",
