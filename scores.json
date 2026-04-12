@@ -1,6 +1,6 @@
 {
   "currentRound": "R4",
-  "lastUpdated": "15:03 BST",
+  "lastUpdated": "15:55 BST",
   "source": "ESPN HTML",
   "players": {
     "Rory McIlroy": {
@@ -34,10 +34,10 @@
       "r4": "--"
     },
     "Gary Woodland": {
-      "position": 49,
+      "position": 47,
       "cut": false,
       "live": false,
-      "toPar": "+5",
+      "toPar": "+3",
       "r1": "71",
       "r2": "75",
       "r3": "76",
@@ -54,7 +54,7 @@
       "r4": "--"
     },
     "Adam Scott": {
-      "position": 36,
+      "position": 38,
       "cut": false,
       "live": false,
       "toPar": "E",
@@ -74,10 +74,10 @@
       "r4": "--"
     },
     "Justin Thomas": {
-      "position": 39,
+      "position": 38,
       "cut": false,
       "live": false,
-      "toPar": "+1",
+      "toPar": "E",
       "r1": "72",
       "r2": "74",
       "r3": "71",
@@ -304,10 +304,10 @@
       "r4": "--"
     },
     "Corey Conners": {
-      "position": 44,
+      "position": 49,
       "cut": false,
       "live": false,
-      "toPar": "+3",
+      "toPar": "+5",
       "r1": "75",
       "r2": "73",
       "r3": "71",
@@ -347,7 +347,7 @@
       "position": 44,
       "cut": false,
       "live": false,
-      "toPar": "+3",
+      "toPar": "+2",
       "r1": "75",
       "r2": "73",
       "r3": "72",
