@@ -1,6 +1,6 @@
 {
   "currentRound": "R4",
-  "lastUpdated": "21:57 BST",
+  "lastUpdated": "22:05 BST",
   "source": "ESPN HTML",
   "players": {
     "Rory McIlroy": {
@@ -24,7 +24,7 @@
       "r4": "76"
     },
     "Russell Henley": {
-      "position": 3,
+      "position": 2,
       "cut": false,
       "live": false,
       "toPar": "-10",
@@ -44,7 +44,7 @@
       "r4": "66"
     },
     "Cameron Young": {
-      "position": 3,
+      "position": 2,
       "cut": false,
       "live": false,
       "toPar": "-10",
@@ -64,10 +64,10 @@
       "r4": "70"
     },
     "Shane Lowry": {
-      "position": 12,
+      "position": 18,
       "cut": false,
       "live": false,
-      "toPar": "-6",
+      "toPar": "-4",
       "r1": "70",
       "r2": "69",
       "r3": "68",
@@ -84,7 +84,7 @@
       "r4": "73"
     },
     "Hideki Matsuyama": {
-      "position": 13,
+      "position": 12,
       "cut": false,
       "live": false,
       "toPar": "-5",
@@ -94,27 +94,27 @@
       "r4": "69"
     },
     "Patrick Reed": {
-      "position": 18,
+      "position": 12,
       "cut": false,
       "live": false,
-      "toPar": "-4",
+      "toPar": "-5",
       "r1": "69",
       "r2": "69",
       "r3": "72",
       "r4": "--"
     },
     "Collin Morikawa": {
-      "position": 9,
+      "position": 7,
       "cut": false,
       "live": false,
-      "toPar": "-7",
+      "toPar": "-8",
       "r1": "74",
       "r2": "69",
       "r3": "68",
       "r4": "--"
     },
     "Patrick Cantlay": {
-      "position": 13,
+      "position": 12,
       "cut": false,
       "live": false,
       "toPar": "-5",
@@ -144,7 +144,7 @@
       "r4": "76"
     },
     "Jake Knapp": {
-      "position": 9,
+      "position": 10,
       "cut": false,
       "live": false,
       "toPar": "-7",
@@ -174,7 +174,7 @@
       "r4": "72"
     },
     "Jordan Spieth": {
-      "position": 13,
+      "position": 12,
       "cut": false,
       "live": false,
       "toPar": "-5",
@@ -254,10 +254,10 @@
       "r4": "--"
     },
     "Justin Rose": {
-      "position": 1,
+      "position": 2,
       "cut": false,
       "live": false,
-      "toPar": "-11",
+      "toPar": "-10",
       "r1": "70",
       "r2": "69",
       "r3": "69",
@@ -274,7 +274,7 @@
       "r4": "--"
     },
     "Jason Day": {
-      "position": 13,
+      "position": 12,
       "cut": false,
       "live": false,
       "toPar": "-5",
@@ -294,14 +294,14 @@
       "r4": "--"
     },
     "Brooks Koepka": {
-      "position": 13,
+      "position": 12,
       "cut": false,
       "live": false,
       "toPar": "-5",
       "r1": "72",
       "r2": "69",
       "r3": "71",
-      "r4": "--"
+      "r4": "71"
     },
     "Corey Conners": {
       "position": 49,
@@ -384,7 +384,7 @@
       "r4": "--"
     },
     "Tyrrell Hatton": {
-      "position": 3,
+      "position": 2,
       "cut": false,
       "live": false,
       "toPar": "-10",
