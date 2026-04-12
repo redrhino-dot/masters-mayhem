@@ -1,6 +1,6 @@
 {
   "currentRound": "R4",
-  "lastUpdated": "21:33 BST",
+  "lastUpdated": "21:35 BST",
   "source": "ESPN HTML",
   "players": {
     "Rory McIlroy": {
@@ -24,10 +24,10 @@
       "r4": "--"
     },
     "Russell Henley": {
-      "position": 4,
+      "position": 5,
       "cut": false,
       "live": false,
-      "toPar": "-10",
+      "toPar": "-9",
       "r1": "73",
       "r2": "71",
       "r3": "66",
@@ -84,7 +84,7 @@
       "r4": "73"
     },
     "Hideki Matsuyama": {
-      "position": 14,
+      "position": 15,
       "cut": false,
       "live": false,
       "toPar": "-5",
@@ -94,27 +94,27 @@
       "r4": "69"
     },
     "Patrick Reed": {
-      "position": 14,
+      "position": 22,
       "cut": false,
       "live": false,
-      "toPar": "-5",
+      "toPar": "-3",
       "r1": "69",
       "r2": "69",
       "r3": "72",
       "r4": "--"
     },
     "Collin Morikawa": {
-      "position": 14,
+      "position": 11,
       "cut": false,
       "live": false,
-      "toPar": "-5",
+      "toPar": "-6",
       "r1": "74",
       "r2": "69",
       "r3": "68",
       "r4": "--"
     },
     "Patrick Cantlay": {
-      "position": 14,
+      "position": 15,
       "cut": false,
       "live": false,
       "toPar": "-5",
@@ -164,7 +164,7 @@
       "r4": "76"
     },
     "Ludvig Aberg": {
-      "position": 23,
+      "position": 22,
       "cut": false,
       "live": false,
       "toPar": "-3",
@@ -174,7 +174,7 @@
       "r4": "--"
     },
     "Jordan Spieth": {
-      "position": 14,
+      "position": 15,
       "cut": false,
       "live": false,
       "toPar": "-5",
@@ -204,7 +204,7 @@
       "r4": "--"
     },
     "Scottie Scheffler": {
-      "position": 6,
+      "position": 5,
       "cut": false,
       "live": false,
       "toPar": "-9",
@@ -274,7 +274,7 @@
       "r4": "--"
     },
     "Jason Day": {
-      "position": 14,
+      "position": 15,
       "cut": false,
       "live": false,
       "toPar": "-5",
@@ -324,10 +324,10 @@
       "r4": "67"
     },
     "Xander Schauffele": {
-      "position": 9,
+      "position": 7,
       "cut": false,
       "live": false,
-      "toPar": "-7",
+      "toPar": "-8",
       "r1": "70",
       "r2": "72",
       "r3": "70",
@@ -364,7 +364,7 @@
       "r4": "72"
     },
     "Matt Fitzpatrick": {
-      "position": 20,
+      "position": 19,
       "cut": false,
       "live": false,
       "toPar": "-4",
