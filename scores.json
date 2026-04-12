@@ -1,13 +1,13 @@
 {
   "currentRound": "R4",
-  "lastUpdated": "22:30 BST",
+  "lastUpdated": "22:47 BST",
   "source": "ESPN HTML",
   "players": {
     "Rory McIlroy": {
       "position": 1,
       "cut": false,
       "live": false,
-      "toPar": "-12",
+      "toPar": "-13",
       "r1": "67",
       "r2": "65",
       "r3": "73",
@@ -94,24 +94,24 @@
       "r4": "69"
     },
     "Patrick Reed": {
-      "position": 17,
+      "position": 13,
       "cut": false,
       "live": false,
-      "toPar": "-4",
+      "toPar": "-5",
       "r1": "69",
       "r2": "69",
       "r3": "72",
-      "r4": "--"
+      "r4": "73"
     },
     "Collin Morikawa": {
-      "position": 6,
+      "position": 7,
       "cut": false,
       "live": false,
       "toPar": "-9",
       "r1": "74",
       "r2": "69",
       "r3": "68",
-      "r4": "--"
+      "r4": "68"
     },
     "Patrick Cantlay": {
       "position": 12,
@@ -144,7 +144,7 @@
       "r4": "76"
     },
     "Jake Knapp": {
-      "position": 10,
+      "position": 11,
       "cut": false,
       "live": false,
       "toPar": "-7",
@@ -204,10 +204,10 @@
       "r4": "--"
     },
     "Scottie Scheffler": {
-      "position": 6,
+      "position": 2,
       "cut": false,
       "live": false,
-      "toPar": "-9",
+      "toPar": "-10",
       "r1": "70",
       "r2": "74",
       "r3": "65",
@@ -314,7 +314,7 @@
       "r4": "75"
     },
     "Max Homa": {
-      "position": 8,
+      "position": 9,
       "cut": false,
       "live": false,
       "toPar": "-8",
@@ -324,7 +324,7 @@
       "r4": "67"
     },
     "Xander Schauffele": {
-      "position": 8,
+      "position": 9,
       "cut": false,
       "live": false,
       "toPar": "-8",
@@ -364,7 +364,7 @@
       "r4": "72"
     },
     "Matt Fitzpatrick": {
-      "position": 17,
+      "position": 18,
       "cut": false,
       "live": false,
       "toPar": "-4",
