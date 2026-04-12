@@ -1,6 +1,6 @@
 {
   "currentRound": "R4",
-  "lastUpdated": "16:37 BST",
+  "lastUpdated": "17:05 BST",
   "source": "ESPN HTML",
   "players": {
     "Rory McIlroy": {
@@ -34,7 +34,7 @@
       "r4": "--"
     },
     "Gary Woodland": {
-      "position": 44,
+      "position": 46,
       "cut": false,
       "live": false,
       "toPar": "+2",
@@ -54,7 +54,7 @@
       "r4": "--"
     },
     "Adam Scott": {
-      "position": 33,
+      "position": 34,
       "cut": false,
       "live": false,
       "toPar": "-1",
@@ -74,7 +74,7 @@
       "r4": "--"
     },
     "Justin Thomas": {
-      "position": 44,
+      "position": 46,
       "cut": false,
       "live": false,
       "toPar": "+2",
@@ -84,10 +84,10 @@
       "r4": "--"
     },
     "Hideki Matsuyama": {
-      "position": 21,
+      "position": 15,
       "cut": false,
       "live": false,
-      "toPar": "-3",
+      "toPar": "-4",
       "r1": "72",
       "r2": "70",
       "r3": "72",
@@ -124,17 +124,17 @@
       "r4": "--"
     },
     "Jon Rahm": {
-      "position": 44,
+      "position": 42,
       "cut": false,
       "live": false,
-      "toPar": "+2",
+      "toPar": "+1",
       "r1": "78",
       "r2": "70",
       "r3": "73",
       "r4": "--"
     },
     "Jacob Bridgeman": {
-      "position": 30,
+      "position": 32,
       "cut": false,
       "live": false,
       "toPar": "-2",
@@ -154,7 +154,7 @@
       "r4": "--"
     },
     "Sepp Straka": {
-      "position": 30,
+      "position": 32,
       "cut": false,
       "live": false,
       "toPar": "-2",
@@ -164,7 +164,7 @@
       "r4": "--"
     },
     "Ludvig Aberg": {
-      "position": 21,
+      "position": 22,
       "cut": false,
       "live": false,
       "toPar": "-3",
@@ -174,10 +174,10 @@
       "r4": "--"
     },
     "Jordan Spieth": {
-      "position": 30,
+      "position": 22,
       "cut": false,
       "live": false,
-      "toPar": "-2",
+      "toPar": "-3",
       "r1": "72",
       "r2": "73",
       "r3": "70",
@@ -214,7 +214,7 @@
       "r4": "--"
     },
     "Chris Gotterup": {
-      "position": 21,
+      "position": 22,
       "cut": false,
       "live": false,
       "toPar": "-3",
@@ -307,14 +307,14 @@
       "position": 49,
       "cut": false,
       "live": false,
-      "toPar": "+5",
+      "toPar": "+4",
       "r1": "75",
       "r2": "73",
       "r3": "71",
       "r4": "--"
     },
     "Max Homa": {
-      "position": 21,
+      "position": 22,
       "cut": false,
       "live": false,
       "toPar": "-3",
@@ -354,17 +354,17 @@
       "r4": "--"
     },
     "Harris English": {
-      "position": 33,
+      "position": 37,
       "cut": false,
       "live": false,
-      "toPar": "-1",
+      "toPar": "E",
       "r1": "73",
       "r2": "71",
       "r3": "71",
       "r4": "--"
     },
     "Matt Fitzpatrick": {
-      "position": 21,
+      "position": 22,
       "cut": false,
       "live": false,
       "toPar": "-3",
