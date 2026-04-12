@@ -1,17 +1,17 @@
 {
   "currentRound": "R4",
-  "lastUpdated": "23:19 BST",
+  "lastUpdated": "23:58 BST",
   "source": "ESPN HTML",
   "players": {
     "Rory McIlroy": {
       "position": 1,
       "cut": false,
       "live": false,
-      "toPar": "-13",
+      "toPar": "-12",
       "r1": "67",
       "r2": "65",
       "r3": "73",
-      "r4": "--"
+      "r4": "71"
     },
     "Tommy Fleetwood": {
       "position": 33,
@@ -24,7 +24,7 @@
       "r4": "76"
     },
     "Russell Henley": {
-      "position": 4,
+      "position": 3,
       "cut": false,
       "live": false,
       "toPar": "-10",
@@ -44,14 +44,14 @@
       "r4": "66"
     },
     "Cameron Young": {
-      "position": 4,
+      "position": 3,
       "cut": false,
       "live": false,
       "toPar": "-10",
       "r1": "73",
       "r2": "67",
       "r3": "65",
-      "r4": "--"
+      "r4": "73"
     },
     "Adam Scott": {
       "position": 24,
@@ -64,14 +64,14 @@
       "r4": "70"
     },
     "Shane Lowry": {
-      "position": 24,
+      "position": 30,
       "cut": false,
       "live": false,
-      "toPar": "-2",
+      "toPar": "-1",
       "r1": "70",
       "r2": "69",
       "r3": "68",
-      "r4": "--"
+      "r4": "80"
     },
     "Justin Thomas": {
       "position": 41,
@@ -104,7 +104,7 @@
       "r4": "73"
     },
     "Collin Morikawa": {
-      "position": 8,
+      "position": 7,
       "cut": false,
       "live": false,
       "toPar": "-9",
@@ -211,7 +211,7 @@
       "r1": "70",
       "r2": "74",
       "r3": "65",
-      "r4": "--"
+      "r4": "68"
     },
     "Chris Gotterup": {
       "position": 24,
@@ -254,14 +254,14 @@
       "r4": "--"
     },
     "Justin Rose": {
-      "position": 2,
+      "position": 3,
       "cut": false,
       "live": false,
-      "toPar": "-11",
+      "toPar": "-10",
       "r1": "70",
       "r2": "69",
       "r3": "69",
-      "r4": "--"
+      "r4": "70"
     },
     "Nicolai Hojgaard": {
       "position": null,
@@ -281,7 +281,7 @@
       "r1": "69",
       "r2": "71",
       "r3": "68",
-      "r4": "--"
+      "r4": "75"
     },
     "Bryson DeChambeau": {
       "position": null,
@@ -354,7 +354,7 @@
       "r4": "72"
     },
     "Harris English": {
-      "position": 31,
+      "position": 30,
       "cut": false,
       "live": false,
       "toPar": "-1",
@@ -384,7 +384,7 @@
       "r4": "--"
     },
     "Tyrrell Hatton": {
-      "position": 4,
+      "position": 3,
       "cut": false,
       "live": false,
       "toPar": "-10",
