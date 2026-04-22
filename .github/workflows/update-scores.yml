@@ -1,9 +1,11 @@
 name: Update Masters Scores
 
 on:
-  schedule:
-    - cron: '*/4 12-23 * * *'
+  on:
+  # schedule:
+  #   - cron: '*/4 12-23 * * *'
   workflow_dispatch:
+
 
 permissions:
   contents: write
